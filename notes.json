@@ -84,5 +84,7 @@
   "custom_nodes\\sd-perturbed-attention": "SD扰动注意力",
   "custom_nodes\\stability-ComfyUI-nodes": "稳定性ComfyUI节点",
   "custom_nodes\\was-node-suite-comfyui": "ComfyUI_WAS节点套件",
-  "custom_nodes\\wlsh_nodes": "ComfyUI_wlsh节点"
+  "custom_nodes\\wlsh_nodes": "ComfyUI_wlsh节点",
+  "custom_nodes\\ComfyUI-Custom-Scripts": "ComfyUI_多功能脚本",
+   "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
