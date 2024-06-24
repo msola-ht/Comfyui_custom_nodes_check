@@ -1,6 +1,6 @@
 {
   "custom_nodes\\__pycache__": "Python缓存文件夹",
-  "custom_nodes\\AIGODLIKE-COMFYUI-TRANSLATION": "ComfyUI界面翻和插件翻译",
+  "custom_nodes\\AIGODLIKE-ComfyUI-Translation": "ComfyUI界面翻和插件翻译"，
   "custom_nodes\\cg-use-everywhere": "主要是全局输出节点，可以免接线",
   "custom_nodes\\comfy-image-saver": "ComfyUI图像保存工具",
   "custom_nodes\\ComfyUI_ADV_CLIP_emb": "ComfyUI高级CLIP文本编码器，可以使用A111权重",
