@@ -1,0 +1,5 @@
+{
+  "custom_nodes\\AIGODLIKE-ComfyUI-Translation": "主要用于翻译功能",
+  "custom_nodes\\ComfyUI-Manager": "管理ComfyUI的插件",
+  "custom_nodes\\ComfyUI_LayerStyle": "提供图层样式功能"
+}
