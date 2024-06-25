@@ -1,7 +1,6 @@
 {
   "custom_nodes\\AIGODLIKE-COMFYUI-TRANSLATION": "ComfyUI_界面、节点翻译",
   "custom_nodes\\AIGODLIKE-ComfyUI-Translation": "ComfyUI_界面、节点翻译",
-  "custom_nodes\\AIGODLIKE-ComfyUI-Translation": "ComfyUI_界面、节点翻译",
   "custom_nodes\\cg-image-picker": "图像选择器",
   "custom_nodes\\cg-use-everywhere": "主要是全局输出节点，可以免接线",
   "custom_nodes\\comfy-image-saver": "ComfyUI_图像保存工具",
@@ -88,5 +87,5 @@
   "custom_nodes\\was-node-suite-comfyui": "ComfyUI_WAS节点套件",
   "custom_nodes\\wlsh_nodes": "ComfyUI_wlsh节点",
   "custom_nodes\\ComfyUI-Custom-Scripts": "ComfyUI_多功能脚本",
-   "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
+  "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
