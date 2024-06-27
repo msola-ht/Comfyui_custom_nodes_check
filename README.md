@@ -21,4 +21,4 @@ ComfyUI脚本更新检测、插件功能备注、星标检测排序
 
 WeChat：lunare
 
-小红书：@何老师的AIGC服务
+小红书：[@何老师的AIGC服务](https://www.xiaohongshu.com/user/profile/5c60f6dd0000000018004dda?xhsshare=CopyLink&appuid=5c60f6dd0000000018004dda&apptime=1719371503)
