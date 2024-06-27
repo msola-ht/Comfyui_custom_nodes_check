@@ -1,14 +1,47 @@
 import subprocess
 import sys
+import importlib
 import os
 import logging
+import time
+import json
+import importlib.metadata
+
+# 需要检测的库
+required_packages = ['colorama', 'tabulate', 'requests']
+
+# 检测库是否已安装
+def check_packages(packages):
+    missing_packages = []
+    for package in packages:
+        try:
+            importlib.import_module(package)
+        except ImportError:
+            missing_packages.append(package)
+    return missing_packages
+
+# 安装所需的包
+def install_packages(packages):
+    """安装所需的包"""
+    for package in packages:
+        try:
+            subprocess.check_call([sys.executable, '-m', 'pip', 'install', package])
+        except subprocess.CalledProcessError as e:
+            print(f"安装 {package} 失败: {e}")
+            sys.exit(1)
+
+# 检测缺失的库并安装
+missing_packages = check_packages(required_packages)
+if missing_packages:
+    print(f"缺失的库: {missing_packages}, 正在安装...")
+    install_packages(missing_packages)
+
+# 现在可以安全地导入所有模块
+import requests
 from colorama import Fore, Style
 from colorama import init as colorama_init
 from datetime import datetime, timedelta, timezone
 from tabulate import tabulate
-import requests
-import time
-import json
 
 # 初始化colorama
 colorama_init()
@@ -254,7 +287,45 @@ def get_notes_from_url(url):
         logging.error(f"请求超时: {url_with_timestamp}")
     return {}
 
-# 使用脚本
-url = "https://raw.githubusercontent.com/msola-ht/Comfyui_custom_nodes_check/main/notes.json"
-notes = get_notes_from_url(url)
-check_git_updates('custom_nodes', notes)  # 检查当前目录下的custom_nodes及其第一层子目录
+# 检测 GitHub 上的最新版本并获取更新日志
+def check_github_updates(repo_url, current_version):
+    headers = {}
+    github_token = os.getenv('GITHUB_TOKEN')
+
+    if github_token:
+        headers['Authorization'] = f'token {github_token}'
+    
+    try:
+        response = requests.get(repo_url, headers=headers, timeout=10)  # 超时时间设置为10秒
+        response.raise_for_status()  # 如果响应状态码不是200，会抛出HTTPError
+        latest_release = response.json()
+        latest_version = latest_release['tag_name']
+        if latest_version != current_version:
+            print(f"检测到新版本 {latest_version}, 当前版本为 {current_version}。")
+            print("请更新脚本以获取最新功能。")
+            print("更新日志:")
+            print(latest_release['body'])
+    except requests.RequestException as e:
+        print(f"检查更新时出错: {e}")
+
+# 读取当前版本号
+def get_current_version(version_file):
+    try:
+        with open(version_file, 'r') as file:
+            return file.read().strip()
+    except FileNotFoundError:
+        print(f"版本文件 {version_file} 未找到。")
+        sys.exit(1)
+
+def main():
+    missing_packages = check_packages(required_packages)
+    if missing_packages:
+        print(f"缺失的库: {missing_packages}, 正在安装...")
+        install_packages(missing_packages)
+    
+    current_version = get_current_version('version.txt')
+    check_github_updates('https://api.github.com/repos/msola-ht/Comfyui_custom_nodes_check/releases/latest', current_version)
+    check_git_updates('custom_nodes', get_notes_from_url("https://raw.githubusercontent.com/msola-ht/Comfyui_custom_nodes_check/main/notes.json"))
+
+if __name__ == "__main__":
+    main()
