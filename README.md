@@ -17,6 +17,8 @@ ComfyUI脚本更新检测、插件功能备注、星标检测排序
 
 ![Preview 1](https://github.com/msola-ht/Comfyui_custom_nodes_check/blob/615d15b1268aa8f21d4566571296f5e0464e9792/img/PixPin_2024-06-27_16-38-12.png)
 
+如果需要使用星标功能，请参考[如何获取 GitHub 个人访问令牌.md](https://github.com/msola-ht/Comfyui_custom_nodes_check/blob/main/如何获取 GitHub 个人访问令牌.md)
+
 ## 联系我
 
 WeChat：lunare
