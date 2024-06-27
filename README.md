@@ -14,3 +14,5 @@ ComfyUI脚本更新检测、插件功能备注、星标检测排序
 2. 保存到ComfyUI目录
 3. 在ComfyUI目录打开CMD
 4. 输入python check_up.py
+
+![[Preview](https://github.com/msola-ht/Comfyui_custom_nodes_check/blob/main/img/PixPin_2024-06-27_16-38-12.png)
