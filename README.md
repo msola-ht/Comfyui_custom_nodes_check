@@ -1,6 +1,6 @@
 # ComfyUI Custom Nodes Check
 
-ComfyUI脚本更新检测、插件功能备注、星标检测排序
+ComfyUI插件更新时间检测、插件功能备注、星标检测排序
 
 不会编程，全程使用GPT编写
 
