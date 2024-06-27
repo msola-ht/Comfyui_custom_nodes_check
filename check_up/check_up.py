@@ -255,6 +255,6 @@ def get_notes_from_url(url):
     return {}
 
 # 使用脚本
-url = "https://raw.githubusercontent.com/msola-ht/Comfyui_custom_nodes/main/notes.json"
+url = "https://raw.githubusercontent.com/msola-ht/Comfyui_custom_nodes_check/main/notes.json"
 notes = get_notes_from_url(url)
 check_git_updates('custom_nodes', notes)  # 检查当前目录下的custom_nodes及其第一层子目录
