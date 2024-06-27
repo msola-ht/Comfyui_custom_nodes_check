@@ -52,8 +52,8 @@ def get_current_version(version_file):
 missing_packages = check_packages(required_packages)
 
 if missing_packages:
-    print(f"缺失的库: {missing_packages}, 正在执行 package_installer.py")
-    run_script('package_installer.py')
+    print(f"缺失的库: {missing_packages}, 正在执行 check_up_package_installer.py")
+    run_script('check_up_package_installer.py')
     
     # 重新检测库
     missing_packages = check_packages(required_packages)
