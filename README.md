@@ -12,8 +12,8 @@ ComfyUI脚本更新检测、插件功能备注、星标检测排序
 
 ## 使用方式
 
-1. 需要本地安装Python，理论上应该不限制版本，不过我是用3.10.11版本做的脚本。
-2. 需要本地安装[git](https://git-scm.com/)。
+1. 需要本地安装[Python](https://www.python.org/downloads/release/python-31011/).理论上应该不限制版本，不过我是用3.10.11版本做的脚本。
+2. 需要本地安装[git](https://git-scm.com/).
 3. 需要有魔法，且设置CMD和GIT的代理设置。
 4. 下载[check_up](https://github.com/msola-ht/Comfyui_custom_nodes_check/tree/main/check_up)内的[check_up.py](https://github.com/msola-ht/Comfyui_custom_nodes_check/blob/main/check_up/check_up.py)及[version.txt](https://github.com/msola-ht/Comfyui_custom_nodes_check/blob/main/check_up/version.txt)
 5. 保存到ComfyUI目录
