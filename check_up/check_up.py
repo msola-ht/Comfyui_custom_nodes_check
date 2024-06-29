@@ -250,7 +250,7 @@ def check_git_updates(root_path, notes):
         "1、如有关于ComfyUI环境冲突、插件冲突咨询的，可以联系我。\n"
         "2、可能收费，但至少能解决您的问题，让你解决掉使用ComfyUI最麻烦的环境和插件冲突问题，专注于插件使用及效果呈现。\n"
         "###\n"
-        "1、仓库地址：https://github.com/msola-ht/Comfyui_custom_nodes\n"
+        "1、仓库地址：https://github.com/msola-ht/Comfyui_custom_nodes_check\n"
         "2、WeChat：Lunare\n"
         "3、小红书：@何老师的AIGC服务(https://s.b1n.net/R890P)\n"
         "###\n"
