@@ -26,6 +26,8 @@ ComfyUI插件更新时间检测、插件功能备注、星标检测排序
 
 ## 联系我
 
-WeChat：@lunare![](https://github.com/msola-ht/Comfyui_custom_nodes_check/blob/b82118f3c677d0322a174d51f7c60c31fc190930/img/WeChat.png)
+WeChat：@lunare
 
 小红书：[@何老师的AIGC服务](https://www.xiaohongshu.com/user/profile/5c60f6dd0000000018004dda?xhsshare=CopyLink&appuid=5c60f6dd0000000018004dda&apptime=1719371503)
+
+<img src="https://github.com/msola-ht/Comfyui_custom_nodes_check/blob/b82118f3c677d0322a174d51f7c60c31fc190930/img/WeChat.png" width="300" height="337" alt="微信二维码"/><br/>
