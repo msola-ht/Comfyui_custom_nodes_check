@@ -89,5 +89,11 @@
   "custom_nodes\\ComfyUI-Custom-Scripts": "ComfyUI_多功能脚本",
   "custom_nodes\\ComfyUI-layerdiffuse": "ComfyUI_图层节点",
   "custom_nodes\\ComfyUI-DepthAnythingV2": "ComfyUI_深度处理",
+  "custom_nodes\\ComfyUI-champWrapper": "Champ：通过 3D 参数引导实现可控且一致的人体图像动画",
+  "custom_nodes\\ComfyUI-Qwen-VL-API": "通义千问视觉模型可以反推提示词",
+  "custom_nodes\\ComfyUI-QualityOfLifeSuit_Omar92": "自定义合集，有openAI套件、文本、latent、图形等",
+  "custom_nodes\\comfyui_bmad_nodes": "自定义合集",
+  "custom_nodes\\ComfyUI-Video-Matting": "视频抠图",
+  "custom_nodes\\": "",
   "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
