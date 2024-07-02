@@ -94,6 +94,8 @@
   "custom_nodes\\ComfyUI-QualityOfLifeSuit_Omar92": "自定义合集，有openAI套件、文本、latent、图形等",
   "custom_nodes\\comfyui_bmad_nodes": "自定义合集",
   "custom_nodes\\ComfyUI-Video-Matting": "视频抠图",
+  "custom_nodes\\ComfyUI-DynamiCrafter": "DynamiCrafter_动画制作",
+  "custom_nodes\\ComfyUI_Native_DynamiCrafter": "DynamiCrafter_动画制作，支持ControlNet",
   "custom_nodes\\": "",
-  "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
+    "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
