@@ -96,6 +96,11 @@
   "custom_nodes\\ComfyUI-Video-Matting": "视频抠图",
   "custom_nodes\\ComfyUI-DynamiCrafter": "DynamiCrafter_动画制作",
   "custom_nodes\\ComfyUI_Native_DynamiCrafter": "DynamiCrafter_动画制作，支持ControlNet",
+  "custom_nodes\\sdxl_prompt_styler": "SDXL风格提示词",
+  "custom_nodes\\ComfyUI_VLM_nodes": "本地大语言模型",
+  "custom_nodes\\style_aligned_comfy": "StyleA ligned风格对齐图形生成",
+  "custom_nodes\\ComfyUI-Allor": "图像处理插件，有90+节点",
+  "custom_nodes\\ComfyUI-Text_Image-Composite": "文本-图像-组合",
   "custom_nodes\\": "",
   "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
