@@ -97,5 +97,5 @@
   "custom_nodes\\ComfyUI-DynamiCrafter": "DynamiCrafter_动画制作",
   "custom_nodes\\ComfyUI_Native_DynamiCrafter": "DynamiCrafter_动画制作，支持ControlNet",
   "custom_nodes\\": "",
-    "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
+  "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
