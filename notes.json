@@ -101,6 +101,9 @@
   "custom_nodes\\style_aligned_comfy": "StyleA ligned风格对齐图形生成",
   "custom_nodes\\ComfyUI-Allor": "图像处理插件，有90+节点",
   "custom_nodes\\ComfyUI-Text_Image-Composite": "文本-图像-组合",
+  "custom_nodes\\comfyui-tooling-nodes": "后端节点，Krita必备",
+  "custom_nodes\\ComfyUI-PixelArt-Detector": "像素化插件",
+  "custom_nodes\\ComfyUI-post-processing-nodes": "可实现多种酷炫的图像特效",
   "custom_nodes\\": "",
   "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
