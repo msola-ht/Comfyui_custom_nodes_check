@@ -39,7 +39,7 @@
   "custom_nodes\\ComfyUI-Crystools": "ComfyUI_资源监视器",
   "custom_nodes\\ComfyUI-CCSR": "CCSR放大",
   "custom_nodes\\ComfyUI-DDColor": "黑白图片上色",
-  "custom_nodes\\ComfyUI-Dev-Utils": "ComfyUI_开发者工具",
+  "custom_nodes\\ComfyUI-Dev-Utils": "ComfyUI_开发者工具，可以看到每个节点的时间",
   "custom_nodes\\ComfyUI-DynamiCrafterWrapper": "ComfyUI_DynamiCrafter_动画视频",
   "custom_nodes\\ComfyUI-Eagle-PNGInfo": "ComfyUI_Eagle PNG信息",
   "custom_nodes\\ComfyUI-Easy-Use": "ComfyUI_修改UI界面及常用节点整合",
@@ -104,6 +104,14 @@
   "custom_nodes\\comfyui-tooling-nodes": "后端节点，Krita必备",
   "custom_nodes\\ComfyUI-PixelArt-Detector": "像素化插件",
   "custom_nodes\\ComfyUI-post-processing-nodes": "可实现多种酷炫的图像特效",
+  "custom_nodes\\ComfyUI_Custom_Nodes_AlekPet": "翻译插件",
+  "custom_nodes\\ComfyUI-KwaiKolorsWrapper": "kijai/可灵",
+  "custom_nodes\\ComfyUI-Florence2": "微软的Florence2，可反推提示词，速度快",
+  "custom_nodes\\ComfyUI-Kolors-MZ": "MZ/可灵",
+  "custom_nodes\\DZ-FaceDetailer": "利用人脸的插件",
+  "custom_nodes\\comfyui_storydiffusion": "storydiffusion 组件",
+  "custom_nodes\\ComfyUI-YOLO": "YOLO识别",
+  "custom_nodes\\": "",
   "custom_nodes\\": "",
   "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
