@@ -17,7 +17,7 @@
   "custom_nodes\\ComfyUI_IPAdapter_plus": "ComfyUI_IPAdapter_plus风格模仿、人脸插件",
   "custom_nodes\\ComfyUI_Jags_VectorMagic": "ComfyUI_用于探索矢量和图像处理的节点集合",
   "custom_nodes\\ComfyUI_LayerStyle": "ComfyUI_强大的PS各项功能",
-  "custom_nodes\\comfyui_LLM_party": "大语言模型整合，可提示词润色，提示词反推，需要API或者本地部署Ollama使用",
+  "custom_nodes\\comfyui_LLM_party": "语言模型，类似COZE的插件",
   "custom_nodes\\ComfyUI_restart_sampling": "ComfyUI_采样器",
   "custom_nodes\\comfyui_segment_anything": "ComfyUI_语义图像分割蒙版",
   "custom_nodes\\ComfyUI_smZNodes": "ComfyUI_CLIP编码器，可用A111权重",
