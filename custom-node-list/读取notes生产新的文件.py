@@ -9,7 +9,7 @@ with open('notes.json', 'r', encoding='utf-8') as file:
 print("notes.json 文件读取完毕。")
 
 # 从给定的URL下载并解析 custom-node-list-cleaned.json 文件
-url = "https://raw.githubusercontent.com/msola-ht/Comfyui_custom_nodes_check/main/custom-node-list-cleaned/custom-node-list-cleaned.json"
+url = "https://raw.githubusercontent.com/msola-ht/Comfyui_custom_nodes_check/main/custom-node-list/custom-node-list-cleaned.json"
 print(f"正在从 {url} 下载 custom-node-list-cleaned.json 文件...")
 response = requests.get(url)
 custom_nodes_data = response.json()

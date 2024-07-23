@@ -1,6 +1,11 @@
 {
     "custom_nodes\\AIGODLIKE-ComfyUI-Translation": {
         "translation": "ComfyUI_界面、节点翻译",
+        "files": [],
+        "stars": 0
+    },
+    "custom_nodes\\AIGODLIKE-COMFYUI-TRANSLATION": {
+        "translation": "ComfyUI_界面、节点翻译",
         "files": [
             "https://github.com/AIGODLIKE/AIGODLIKE-COMFYUI-TRANSLATION"
         ],
@@ -664,7 +669,7 @@
         "files": [
             "https://github.com/twri/sdxl_prompt_styler"
         ],
-        "stars": 656
+        "stars": 657
     },
     "custom_nodes\\ComfyUI_VLM_nodes": {
         "translation": "本地大语言模型",
@@ -716,7 +721,7 @@
         "stars": 151
     },
     "custom_nodes\\ComfyUI_Custom_Nodes_AlekPet": {
-        "translation": "翻译节点",
+        "translation": "翻译插件",
         "files": [
             "https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet"
         ],
@@ -734,14 +739,14 @@
         "files": [
             "https://github.com/kijai/ComfyUI-Florence2"
         ],
-        "stars": 357
+        "stars": 358
     },
     "custom_nodes\\ComfyUI-Kolors-MZ": {
         "translation": "MZ/可图",
         "files": [
             "https://github.com/MinusZoneAI/ComfyUI-Kolors-MZ"
         ],
-        "stars": 235
+        "stars": 236
     },
     "custom_nodes\\DZ-FaceDetailer": {
         "translation": "利用人脸的插件",
@@ -768,6 +773,13 @@
             "https://github.com/viperyl/ComfyUI-BiRefNet"
         ],
         "stars": 168
+    },
+    "custom_nodes\\comfyui-photoshop": {
+        "translation": "Photoshop插件",
+        "files": [
+            "https://github.com/NimaNzrii/comfyui-photoshop"
+        ],
+        "stars": 316
     },
     "custom_nodes\\": {
         "translation": "",
