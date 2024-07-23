@@ -1,5 +1,6 @@
 {
   "custom_nodes\\AIGODLIKE-ComfyUI-Translation": "ComfyUI_界面、节点翻译",
+  "custom_nodes\\AIGODLIKE-COMFYUI-TRANSLATION": "ComfyUI_界面、节点翻译",
   "custom_nodes\\cg-image-picker": "图像选择器",
   "custom_nodes\\cg-use-everywhere": "主要是全局输出节点，可以免接线",
   "custom_nodes\\comfy-image-saver": "ComfyUI_图像保存工具",
@@ -110,18 +111,8 @@
   "custom_nodes\\DZ-FaceDetailer": "利用人脸的插件",
   "custom_nodes\\comfyui_storydiffusion": "storydiffusion 组件",
   "custom_nodes\\ComfyUI-YOLO": "YOLO识别",
-  "custom_nodes\\ComfyUI_Custom_Nodes_AlekPet": "翻译节点",
   "custom_nodes\\ComfyUI-BiRefNet": "扣蒙版",
-  "custom_nodes\\": "",
-  "custom_nodes\\": "",
-  "custom_nodes\\": "",
-  "custom_nodes\\": "",
-  "custom_nodes\\": "",
-  "custom_nodes\\": "",
-  "custom_nodes\\": "",
-  "custom_nodes\\": "",
-  "custom_nodes\\": "",
-  "custom_nodes\\": "",
+  "custom_nodes\\comfyui-photoshop": "Photoshop插件",
   "custom_nodes\\": "",
   "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
