@@ -1,5 +1,5 @@
 {
-    "custom_nodes\\AIGODLIKE-COMFYUI-TRANSLATION": {
+    "custom_nodes\\AIGODLIKE-ComfyUI-Translation": {
         "translation": "ComfyUI_界面、节点翻译",
         "files": [
             "https://github.com/AIGODLIKE/AIGODLIKE-COMFYUI-TRANSLATION"
