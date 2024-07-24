@@ -113,6 +113,7 @@
   "custom_nodes\\ComfyUI-YOLO": "YOLO识别",
   "custom_nodes\\ComfyUI-BiRefNet": "扣蒙版",
   "custom_nodes\\comfyui-photoshop": "Photoshop插件",
+  "custom_nodescomfyui-lama-remover\\": "简单LAMA擦除",
   "custom_nodes\\": "",
   "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
