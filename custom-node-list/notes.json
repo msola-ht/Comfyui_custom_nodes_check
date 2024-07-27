@@ -66,7 +66,7 @@
   "custom_nodes\\ComfyUI-seamless-tiling": "ComfyUI_无缝平铺",
   "custom_nodes\\comfyui-sixgod_prompt": "ComfyUI_六神提示词",
   "custom_nodes\\ComfyUI-SUPIR": "ComfyUI_SUPIR 放大插件",
-  "custom_nodes\\Comfyui-StableSR": "ComfyUI_稳定SR",
+  "custom_nodes\\Comfyui-StableSR": "颜色相关节点",
   "custom_nodes\\ComfyUI-TiledDiffusion": "ComfyUI_平铺扩散",
   "custom_nodes\\ComfyUI-Universal-Styler": "ComfyUI_通用样式器",
   "custom_nodes\\comfyui-various": "ComfyUI_各种",
@@ -113,7 +113,9 @@
   "custom_nodes\\ComfyUI-YOLO": "YOLO识别",
   "custom_nodes\\ComfyUI-BiRefNet": "扣蒙版",
   "custom_nodes\\comfyui-photoshop": "Photoshop插件",
-  "custom_nodescomfyui-lama-remover\\": "简单LAMA擦除",
+  "custom_nodes\\comfyui-lama-remover\\": "简单LAMA擦除",
+  "custom_nodes\\ComfyUI-Bringing-Old-Photos-Back-to-Life": "老照片处理",
+  "custom_nodes\\comfyui-image-round": "填充或者裁剪图像到整数尺寸",
   "custom_nodes\\": "",
   "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
