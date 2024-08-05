@@ -50,7 +50,7 @@
     },
     {
         "name": "comfyui_controlnet_aux",
-        "note": "This is a rework of comfyui_controlnet_preprocessors based on ControlNet auxiliary models by \ud83e\udd17. I think the old repo isn't good enough to maintain. All old workflow will still be work with this repo but the version option won't do anything. Almost all v1 preprocessors are replaced by v1.1 except those doesn't appear in v1.1. [w/NOTE: Please refrain from using the controlnet preprocessor alongside this installation, as it may lead to conflicts and prevent proper recognition.]",
+        "note": "Plug-and-play ComfyUI node sets for making ControlNet hint images.",
         "files": [
             "https://github.com/Fannovel16/comfyui_controlnet_aux"
         ]
@@ -631,7 +631,7 @@
     },
     {
         "name": "ComfyUI_smZNodes",
-        "note": "NODES: CLIP Text Encode++. Achieve identical embeddings from stable-diffusion-webui for ComfyUI.",
+        "note": "Nodes such as CLIP Text Encode++ to achieve identical embeddings from stable-diffusion-webui for ComfyUI.",
         "files": [
             "https://github.com/shiimizu/ComfyUI_smZNodes"
         ]
@@ -641,6 +641,13 @@
         "note": "The extension enables large image drawing & upscaling with limited VRAM via the following techniques:\n1.Two SOTA diffusion tiling algorithms: [a/Mixture of Diffusers](https://github.com/albarji/mixture-of-diffusers) and [a/MultiDiffusion](https://github.com/omerbt/MultiDiffusion)\n2.pkuliyi2015's Tiled VAE algorithm.",
         "files": [
             "https://github.com/shiimizu/ComfyUI-TiledDiffusion"
+        ]
+    },
+    {
+        "name": "ComfyUI-PhotoMaker-Plus",
+        "note": "ComfyUI reference implementation for [a/PhotoMaker](https://github.com/TencentARC/PhotoMaker) models.\nNOTE: PhotoMaker V2 is supported.",
+        "files": [
+            "https://github.com/shiimizu/ComfyUI-PhotoMaker-Plus"
         ]
     },
     {
@@ -1155,6 +1162,13 @@
         ]
     },
     {
+        "name": "Skimmed_CFG",
+        "note": "A powerful anti-burn allowing much higher CFG scales for latent diffusion models (for ComfyUI)",
+        "files": [
+            "https://github.com/Extraltodeus/Skimmed_CFG"
+        ]
+    },
+    {
         "name": "ComfyUI_JPS-Nodes",
         "note": "Nodes: Various nodes to handle SDXL Resolutions, SDXL Basic Settings, IP Adapter Settings, Revision Settings, SDXL Prompt Styler, Crop Image to Square, Crop Image to Target Size, Get Date-Time String, Resolution Multiply, Largest Integer, 5-to-1 Switches for Integer, Images, Latents, Conditioning, Model, VAE, ControlNet",
         "files": [
@@ -1401,7 +1415,7 @@
     },
     {
         "name": "tdxh_node_comfyui",
-        "note": "Nodes:TdxhImageToSize, TdxhImageToSizeAdvanced, TdxhLoraLoader, TdxhIntInput, TdxhFloatInput, TdxhStringInput. Some nodes for stable diffusion comfyui. Sometimes it helps conveniently to use less nodes for doing the same things.",
+        "note": "Add Switch on nodes, Make nodes amount small! It helps conveniently to use less nodes for doing the same things.",
         "files": [
             "https://github.com/youyegit/tdxh_node_comfyui"
         ]
@@ -1457,7 +1471,7 @@
     },
     {
         "name": "comfyui-tooling-nodes",
-        "note": "Nodes: Load Image (Base64), Load Mask (Base64), Send Image (WebSocket), Crop Image, Apply Mask to Image, Create Tile Layout, Extract Image Tile, .... Provides nodes geared towards using ComfyUI as a backend for external tools.\nNOTE: This extension is necessary when using an external tool like [comfyui-capture-inference](https://github.com/minux302/comfyui-capture-inference).",
+        "note": "Provides nodes and server API extensions geared towards using ComfyUI as a backend for external tools.",
         "files": [
             "https://github.com/Acly/comfyui-tooling-nodes"
         ]
@@ -1660,7 +1674,7 @@
     },
     {
         "name": "sd-dynamic-thresholding",
-        "note": "Extension for StableSwarmUI, ComfyUI, and AUTOMATIC1111 Stable Diffusion WebUI that enables a way to use higher CFG Scales without color issues. This works by clamping latents between steps.",
+        "note": "Adds nodes for Dynamic Thresholding, CFG scheduling, and related techniques.",
         "files": [
             "https://github.com/mcmonkeyprojects/sd-dynamic-thresholding"
         ]
@@ -1877,7 +1891,7 @@
     },
     {
         "name": "ComfyUI-LivePortraitKJ",
-        "note": "Nodes for [a/LivePortrait](https://github.com/KwaiVGI/LivePortrait), insightface is required",
+        "note": "Nodes for [a/LivePortrait](https://github.com/KwaiVGI/LivePortrait)",
         "files": [
             "https://github.com/kijai/ComfyUI-LivePortraitKJ"
         ]
@@ -1887,6 +1901,13 @@
         "note": "Rudimentary wrapper that runs [a/Kwai-Kolors](https://huggingface.co/Kwai-Kolors/Kolors) text2image pipeline using diffusers.",
         "files": [
             "https://github.com/kijai/ComfyUI-KwaiKolorsWrapper"
+        ]
+    },
+    {
+        "name": "ComfyUI-segment-anything-2",
+        "note": "Nodes to use [a/segment-anything-2](https://github.com/facebookresearch/segment-anything-2) for image or video segmentation.",
+        "files": [
+            "https://github.com/kijai/ComfyUI-segment-anything-2"
         ]
     },
     {
@@ -2055,6 +2076,13 @@
         "note": "A custom node for ComfyUI. It compare two images to rate facial similarity.",
         "files": [
             "https://github.com/chflame163/ComfyUI_FaceSimilarity"
+        ]
+    },
+    {
+        "name": "ComfyUI_CatVTON_Wrapper",
+        "note": "[a/CatVTON](https://github.com/Zheng-Chong/CatVTON) warpper for ComfyUI",
+        "files": [
+            "https://github.com/chflame163/ComfyUI_CatVTON_Wrapper"
         ]
     },
     {
@@ -2745,42 +2773,42 @@
     },
     {
         "name": "comfyui-old-photo-restoration",
-        "note": "This is an Extension for ComfyUI, which allows you to perform Bringing-Old-Photos-Back-to-Life natively.",
+        "note": "Perform Bringing-Old-Photos-Back-to-Life",
         "files": [
             "https://github.com/Haoming02/comfyui-old-photo-restoration"
         ]
     },
     {
         "name": "comfyui-diffusion-cg",
-        "note": "This is the ComfyUI port of the joint research between me and TimothyAlexisVass. For more information, check out the original [a/Extension](https://github.com/Haoming02/sd-webui-diffusion-cg) for Automatic1111.",
+        "note": "Color Grading for Stable Diffusion",
         "files": [
             "https://github.com/Haoming02/comfyui-diffusion-cg"
         ]
     },
     {
         "name": "comfyui-prompt-format",
-        "note": "This is an Extension for ComfyUI, which helps formatting texts.",
+        "note": "Add a button that formats the prompts in textfields",
         "files": [
             "https://github.com/Haoming02/comfyui-prompt-format"
         ]
     },
     {
         "name": "comfyui-clear-screen",
-        "note": "Adds a CLS button to clear the console.",
+        "note": "Add a button that clears the console",
         "files": [
             "https://github.com/Haoming02/comfyui-clear-screen"
         ]
     },
     {
         "name": "comfyui-menu-anchor",
-        "note": "This is an Extension for ComfyUI, which moves the menu to the specified corner on startup.",
+        "note": "Snaps the menu to the corner automatically",
         "files": [
             "https://github.com/Haoming02/comfyui-menu-anchor"
         ]
     },
     {
         "name": "comfyui-tab-handler",
-        "note": "Intercepts the Tab key to switch between textarea",
+        "note": "Use the Tab key to switch between textfields",
         "files": [
             "https://github.com/Haoming02/comfyui-tab-handler"
         ]
@@ -2794,14 +2822,14 @@
     },
     {
         "name": "comfyui-node-beautify",
-        "note": "This is an Extension for ComfyUI, which helps formatting the workflow.",
+        "note": "Add a button that formats the workflow graph",
         "files": [
             "https://github.com/Haoming02/comfyui-node-beautify"
         ]
     },
     {
         "name": "comfyui-resharpen",
-        "note": "This is an Extension for ComfyUI, which allows you to increase or decrease the amount of details generated during the Stable Diffusion pipeline.",
+        "note": "Manipulate the details of generations.",
         "files": [
             "https://github.com/Haoming02/comfyui-resharpen"
         ]
@@ -3312,7 +3340,7 @@
     },
     {
         "name": "ComfyUI-DareMerge",
-        "note": "Merge two checkpoint models by dare ties [a/(https://github.com/yule-BUAA/MergeLM)](https://github.com/yule-BUAA/MergeLM), sort of.",
+        "note": "ComfyUI powertools for SD1.5 and SDXL model merging.",
         "files": [
             "https://github.com/54rt1n/ComfyUI-DareMerge"
         ]
@@ -3724,6 +3752,13 @@
         ]
     },
     {
+        "name": "comfyui-string-converter",
+        "note": "Nodes: Convert String To Int, Convert String To Float",
+        "files": [
+            "https://github.com/glowcone/comfyui-string-converter"
+        ]
+    },
+    {
         "name": "ComfyUI-fastblend",
         "note": "fastblend for comfyui, and other nodes that I write for video2video. rebatch image, my openpose",
         "files": [
@@ -3889,13 +3924,6 @@
         "note": "Slightly better random prompt generation tools that allow combining and picking prompts from both file and text input sources.",
         "files": [
             "https://github.com/darkpixel/darkprompts"
-        ]
-    },
-    {
-        "name": "ComfyUI-PhotoMaker-Plus",
-        "note": "ComfyUI reference implementation for [a/PhotoMaker](https://github.com/TencentARC/PhotoMaker) models. [w/WARN:The repository name has been changed. For those who have previously installed it, please delete custom_nodes/ComfyUI-PhotoMaker from disk and reinstall this.]",
-        "files": [
-            "https://github.com/shiimizu/ComfyUI-PhotoMaker-Plus"
         ]
     },
     {
@@ -4396,6 +4424,13 @@
         ]
     },
     {
+        "name": "All-IN-ONE-style",
+        "note": "all art styles",
+        "files": [
+            "https://github.com/al-swaiti/All-IN-ONE-style"
+        ]
+    },
+    {
         "name": "ComfyUI_Mira",
         "note": "Nodes:Integer Multiplier, Float Multiplier, Convert Numeral to String, Create Canvas Advanced, Create Canvas, Create PNG Mask, Color Mask to HEX String, Color Mask to INT RGB, Color Masks to List",
         "files": [
@@ -4565,7 +4600,7 @@
     },
     {
         "name": "ComfyUI_cspnodes",
-        "note": "Nodes:Image Dir Iterator, Modelscopet2v, Modelscopev2v.",
+        "note": "Nodes:Image Dir Iterator, Modelscopet2v, Modelscopev2v, Vid Dir Iterator, Image Dir Iterator, Text File Line Iterator, Remap Range, Split Image Channels, Resize By Image, Increment Every N.",
         "files": [
             "https://github.com/cerspense/ComfyUI_cspnodes"
         ]
@@ -4694,6 +4729,13 @@
         "note": "Partial redraw sampler and variant seed sampler",
         "files": [
             "https://github.com/11dogzi/Comfyui-ergouzi-samplers"
+        ]
+    },
+    {
+        "name": "Comfyui-ergouzi-kaiguan",
+        "note": "Group switching control, one click control to ignore and disable multiple groups, as well as wired switch combination nodes, allowing for arbitrary switching of annotation names",
+        "files": [
+            "https://github.com/11dogzi/Comfyui-ergouzi-kaiguan"
         ]
     },
     {
@@ -5041,7 +5083,7 @@
     },
     {
         "name": "ComfyUI-utils-nodes",
-        "note": "Nodes:LoadImageWithSwitch, ImageBatchOneOrMore, ConcatText, ModifyTextGender",
+        "note": "Nodes:LoadImageWithSwitch, ImageBatchOneOrMore, ModifyTextGender, ImageCompositeMaskedWithSwitch, ColorCorrectOfUtils, SplitMask, MaskFastGrow, CheckpointLoaderSimpleWithSwitch, ImageResizeTo8x, MatchImageRatioToPreset etc.",
         "files": [
             "https://github.com/zhangp365/ComfyUI-utils-nodes"
         ]
@@ -5163,6 +5205,13 @@
         "note": "Store settings by model.",
         "files": [
             "https://github.com/shinich39/comfyui-model-db"
+        ]
+    },
+    {
+        "name": "comfyui-pkg39",
+        "note": "This package has created for generate image from generated image and embedded workflow.",
+        "files": [
+            "https://github.com/shinich39/comfyui-pkg39"
         ]
     },
     {
@@ -5614,6 +5663,13 @@
         ]
     },
     {
+        "name": "ComfyUI_Diffree",
+        "note": "using diffree: Text-Guided Shape Free Object Inpainting with Diffusion Model",
+        "files": [
+            "https://github.com/smthemex/ComfyUI_Diffree"
+        ]
+    },
+    {
         "name": "ComfyUI_Stable_Makeup",
         "note": "You can apply makeup to the characters in comfyui",
         "files": [
@@ -5762,7 +5818,7 @@
     },
     {
         "name": "ComfyUI-BrushNet",
-        "note": "Custom nodes for ComfyUI allow to inpaint using Brushnet: '[a/BrushNet: A Plug-and-Play Image Inpainting Model with Decomposed Dual-Branch Diffusion](https://arxiv.org/abs/2403.06976)'.",
+        "note": "These are custom nodes for ComfyUI native implementation of [a/BrushNet](https://arxiv.org/abs/2403.06976) (inpaint), PowerPaint (inpaint, object removal) and HiDiffusion (higher resolution for SD15 and SDXL)",
         "files": [
             "https://github.com/nullquant/ComfyUI-BrushNet"
         ]
@@ -5951,7 +6007,7 @@
     },
     {
         "name": "comfyui-checkpoint-automatic-config",
-        "note": "This node was designed to help with checkpoint configuration.",
+        "note": "This node was designed to help with checkpoint configuration. Fee free to add new checkpoint configurations!",
         "files": [
             "https://github.com/DarKDinDoN/comfyui-checkpoint-automatic-config"
         ]
@@ -6028,7 +6084,7 @@
     },
     {
         "name": "comfyui-faceless-node",
-        "note": "Nodes:Load Video, Load Frames, Save Video, Face Swap, Face Restore, Face Swap (Video), Face Restore (Video)",
+        "note": "A facefusion custom node for ComfyUI. Swap or restore faces for image or video",
         "files": [
             "https://github.com/jeffy5/comfyui-faceless-node"
         ]
@@ -6087,6 +6143,13 @@
         "note": "This is a custom node that allows you to easily call up and set image size presets. Settings can be made by editing the included config.yaml. It is almost identical to Comfyroll Studio's CR AspectRatio. I created it because I wanted to easily edit the presets.",
         "files": [
             "https://github.com/da2el-ai/ComfyUI-d2-size-selector"
+        ]
+    },
+    {
+        "name": "ComfyUI-d2-send-eagle",
+        "note": "This is a custom node for sending images generated in ComfyUI to the image management software Eagle. It's an extension of an existing custom node called [a/ComfyUI-send-eagle-slim](https://github.com/shingo1228/ComfyUI-send-eagle-slim), modified to suit my preferences. I'm grateful to Shingo.T for creating the excellent original custom node.",
+        "files": [
+            "https://github.com/da2el-ai/ComfyUI-d2-send-eagle"
         ]
     },
     {
@@ -6381,6 +6444,13 @@
         "note": "comfyui-default-values-manager",
         "files": [
             "https://github.com/christian-byrne/comfyui-default-values-manager"
+        ]
+    },
+    {
+        "name": "youtube-dl-comfyui",
+        "note": "Download youtube videos/playlists",
+        "files": [
+            "https://github.com/christian-byrne/youtube-dl-comfyui"
         ]
     },
     {
@@ -6826,7 +6896,7 @@
     },
     {
         "name": "ComfyUI-DiffusersLoader",
-        "note": "This node pack allows loading of CLIP, MODEL, VAE aspects for both SD1.5 and SDXL checkpoints that is converted to diffusers format.",
+        "note": "This project aims to create loaders for diffusers format checkpoint models, making it easier for ComfyUI users to use diffusers format checkpoints instead of the standard checkpoint formats.",
         "files": [
             "https://github.com/Scorpinaus/ComfyUI-DiffusersLoader"
         ]
@@ -6847,7 +6917,7 @@
     },
     {
         "name": "ComfyUI-Unprompted",
-        "note": "This is a ComfyUI node that processes your input text with the [a/Unprompted templating language](https://github.com/ThereforeGames/unprompted). Early alpha release.\n",
+        "note": "A node that processes input text with the [a/Unprompted templating language](https://github.com/ThereforeGames/unprompted).",
         "files": [
             "https://github.com/ThereforeGames/ComfyUI-Unprompted"
         ]
@@ -7323,7 +7393,7 @@
     },
     {
         "name": "ComfyUI-CustomNodes",
-        "note": "Nodes:Image Blending Mode Mask",
+        "note": "Nodes:Image Blending Mode Mask, Load Image With Bool, IPAdapter Mad Scientist Weight_Type, IPAdapter FaceID With Bool",
         "files": [
             "https://github.com/wTechArtist/ComfyUI-CustomNodes"
         ]
@@ -7442,7 +7512,7 @@
     },
     {
         "name": "ComfyUI-APZmedia-cleanName-from-string",
-        "note": "The Clean File Name Node is a custom node for ComfyUI designed to process and sanitize text strings for use as valid file names. It replaces invalid characters with a user-specified character and truncates the resulting string to a defined length.",
+        "note": "A custom node to sanitize text to make clean file names from strings.",
         "files": [
             "https://github.com/APZmedia/ComfyUI-APZmedia-cleanName-from-string"
         ]
@@ -7518,6 +7588,13 @@
         ]
     },
     {
+        "name": "comfyui_segment_anything_plus",
+        "note": "This project is a ComfyUI version of [a/sd-webui-segment-anything](https://github.com/continue-revolution/sd-webui-segment-anything). At present, only the most core functionalities have been implemented. I would like to express my gratitude to [a/continue-revolution](https://github.com/continue-revolution) for their preceding work on which this is based.",
+        "files": [
+            "https://github.com/un-seen/comfyui_segment_anything_plus"
+        ]
+    },
+    {
         "name": "ComfyUI-Inspyrenet-Rembg",
         "note": "ComfyUI node for background removal implementing [a/InSPyReNet](https://github.com/plemeri/InSPyReNet)",
         "files": [
@@ -7570,7 +7647,7 @@
     },
     {
         "name": "ComfyUI-Latte",
-        "note": "Nodes:LatteVideoGenerator",
+        "note": "Nodes to use [a/latte](https://github.com/Vchitect/Latte) for text to video generation",
         "files": [
             "https://github.com/RhizoNymph/ComfyUI-Latte"
         ]
@@ -7584,7 +7661,7 @@
     },
     {
         "name": "ComfyUI_FaceShaper",
-        "note": "Nodes:Match two faces' shape before using other face swap nodes\nFace-swapping tools typically only replace facial features during the swap, without altering the facial shape. When there is a significant difference in facial shape between the target person and the person in the original photo, the result of the face swap is less satisfactory.\nThis project is a small script that can first liquefy and stretch the face in the original photo according to the horizontal and vertical proportions of the target person's facial contour. The resulting image can be used as input for other face-swapping nodes.",
+        "note": "Match two faces' shape before using other face swap nodes\nFace-swapping tools typically only replace facial features during the swap, without altering the facial shape. When there is a significant difference in facial shape between the target person and the person in the original photo, the result of the face swap is less satisfactory.\nThis project is a small script that can first liquefy and stretch the face in the original photo according to the horizontal and vertical proportions of the target person's facial contour. The resulting image can be used as input for other face-swapping nodes.",
         "files": [
             "https://github.com/fssorc/ComfyUI_FaceShaper"
         ]
@@ -7594,6 +7671,13 @@
         "note": "Just a simple node to filter out NSFW outputs. This node utilizes [a/AdamCodd/vit-base-nsfw-detector](https://huggingface.co/AdamCodd/vit-base-nsfw-detector) to score the outputs. I chose this model because it's small, fast, and performed very well in my testing. Nudity tends to be scored in the 0.95+ range, but I've set the default to 0.8 as a safe baseline.",
         "files": [
             "https://github.com/BetaDoggo/ComfyUI-YetAnotherSafetyChecker"
+        ]
+    },
+    {
+        "name": "ComfyUI-WDV-Nodes",
+        "note": "100% of code taken from [a/https://gist.github.com/neggles/ecb6327251a9e274428d07636c727eb9](https://gist.github.com/neggles/ecb6327251a9e274428d07636c727eb9).",
+        "files": [
+            "https://github.com/BetaDoggo/ComfyUI-WDV-Nodes"
         ]
     },
     {
@@ -7688,6 +7772,13 @@
         ]
     },
     {
+        "name": "ComfyUI-textnodes",
+        "note": "Misc Text Nodes for Comfy UI",
+        "files": [
+            "https://github.com/akierson/ComfyUI-textnodes"
+        ]
+    },
+    {
         "name": "ComfyUI-tbox",
         "note": "Nodes:ImageLoader, ImageSaver, ImagesSaver, ImageResize, ImageSize.",
         "files": [
@@ -7699,6 +7790,167 @@
         "note": "A ComfyUI extension for generating captions for your images. Runs on your own system, no external services used, no filter.\nUses various VLMs with APIs to generate captions for images. You can give instructions or ask questions in natural language.",
         "files": [
             "https://github.com/neverbiasu/ComfyUI-Image-Captioner"
+        ]
+    },
+    {
+        "name": "ComfyUI-SAM2",
+        "note": "This project adapts the SAM2 to incorporate functionalities from [a/comfyui_segment_anything](https://github.com/storyicon/comfyui_segment_anything). Many thanks to continue-revolution for their foundational work.",
+        "files": [
+            "https://github.com/neverbiasu/ComfyUI-SAM2"
+        ]
+    },
+    {
+        "name": "DJZ-Nodes",
+        "note": "AspectSize and other nodes",
+        "files": [
+            "https://github.com/MushroomFleet/DJZ-Nodes"
+        ]
+    },
+    {
+        "name": "ComfyUI_Accessories",
+        "note": "Get Mask Dimensions",
+        "files": [
+            "https://github.com/var1ableX/ComfyUI_Accessories"
+        ]
+    },
+    {
+        "name": "comfyui_reimgsize",
+        "note": "a simple reimgsize node(s) in comfyui.",
+        "files": [
+            "https://github.com/MakkiShizu/comfyui_reimgsize"
+        ]
+    },
+    {
+        "name": "ComfyUI-AdvancedTiling",
+        "note": "Advanced tiling of various shapes for ComfyUI",
+        "files": [
+            "https://github.com/JosefKuchar/ComfyUI-AdvancedTiling"
+        ]
+    },
+    {
+        "name": "ComfyUI-TextOverlay",
+        "note": "A custom node for ComfyUI that adds text overlay to images, with options for text and background color, opacity, vertical positioning, and custom font selection.",
+        "files": [
+            "https://github.com/neeltheninja/ComfyUI-TextOverlay"
+        ]
+    },
+    {
+        "name": "ComfyUI-EbSynth",
+        "note": "Run EbSynth, Fast Example-based Image Synthesis and Style Transfer, in ComfyUI.",
+        "files": [
+            "https://github.com/FuouM/ComfyUI-EbSynth"
+        ]
+    },
+    {
+        "name": "ComfyUI-SVGview",
+        "note": "Nodes:Preview SVG",
+        "files": [
+            "https://github.com/Parameshvadivel/ComfyUI-SVGview"
+        ]
+    },
+    {
+        "name": "ComfyUI-Visionatrix",
+        "note": "The ComfyUI-Visionatrix nodes are designed for convenient ComfyUI to [a/Visionatrix](https://github.com/Visionatrix/Visionatrix) workflow support migration, in particular to extract prompt input params (input, textarea, checkbox, select, range, file) to be used in simplified Visionatrix UI.",
+        "files": [
+            "https://github.com/Visionatrix/ComfyUI-Visionatrix"
+        ]
+    },
+    {
+        "name": "comfyui-loadimagewithsubfolder",
+        "note": "Extend LoadImage node with subfolder support",
+        "files": [
+            "https://github.com/liangt/comfyui-loadimagewithsubfolder"
+        ]
+    },
+    {
+        "name": "comfyui-image-blender",
+        "note": "ComfyuiImageBlender is a custom node for ComfyUI. It may be used to blend two images together using a specified blending mode.",
+        "files": [
+            "https://github.com/vault-developer/comfyui-image-blender"
+        ]
+    },
+    {
+        "name": "comfyui-foxpack",
+        "note": "Collection of nodes for the automation of workflows",
+        "files": [
+            "https://github.com/gisu/comfyui-foxpack"
+        ]
+    },
+    {
+        "name": "DebugNode-ComfyUI",
+        "note": "This node provides a simple way to view the output of many nodes, without leaving ComfyUI.",
+        "files": [
+            "https://github.com/webfiltered/DebugNode-ComfyUI"
+        ]
+    },
+    {
+        "name": "Comfyui-CatVTON",
+        "note": "Comfyui-CatVTON This repository is the modified official Comfyui node of CatVTON, which is a simple and efficient virtual try-on diffusion model with 1) Lightweight Network (899.06M parameters totally), 2) Parameter-Efficient Training (49.57M parameters trainable) 3) Simplified Inference (< 8G VRAM for 1024X768 resolution).\nThe original GitHub project is [a/https://github.com/Zheng-Chong/CatVTON](https://github.com/Zheng-Chong/CatVTON)",
+        "files": [
+            "https://github.com/pzc163/Comfyui-CatVTON"
+        ]
+    },
+    {
+        "name": "ComfyUI_merge_ASVL",
+        "note": "This is a simple node for connecting images. For pictures of the same size, users can choose to fill in vertical in the parameter to connect the pictures vertically or fill in horizontal to connect the pictures horizontally.",
+        "files": [
+            "https://github.com/aisabervisionlab/ComfyUI_merge_ASVL"
+        ]
+    },
+    {
+        "name": "ComfyUI-AKatz-Nodes",
+        "note": "Simple custom node pack for nodes I use in my workflows. Includes Dilate Mask Linear for animating masks.",
+        "files": [
+            "https://github.com/akatz-ai/ComfyUI-AKatz-Nodes"
+        ]
+    },
+    {
+        "name": "Comfy-Sentry",
+        "note": "ComfyUI custom node that activates integration with a Sentry instance for loading. Has no actual nodes.",
+        "files": [
+            "https://github.com/teward/Comfy-Sentry"
+        ]
+    },
+    {
+        "name": "FM_nodes",
+        "note": "A collection of ComfyUI nodes. Including: WFEN, RealViFormer, ProPIH",
+        "files": [
+            "https://github.com/FuouM/FM_nodes"
+        ]
+    },
+    {
+        "name": "ComfyUI-mem-safe-wrapper",
+        "note": "ComfyUI's Smart Memory Management efficiently manages RAM, GPU memory, and garbage collection. This feature keeps frequently used models in memory to increase inference speed, and dynamically releases less important models when memory is low to optimize resources. However, not all ComfyUI custom node developers create nodes that are compatible with Smart memory management. This includes several impressive models. Mem-safe-wrapper is a custom node that wraps these model nodes to enable ComfyUI's Smart memory management capabilities.",
+        "files": [
+            "https://github.com/MiddleKD/ComfyUI-mem-safe-wrapper"
+        ]
+    },
+    {
+        "name": "ComfyUI-AdvancedLivePortrait",
+        "note": "AdvancedLivePortrait with Facial expression editor",
+        "files": [
+            "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
+        ]
+    },
+    {
+        "name": "comfyui-text-node-with-comments",
+        "note": "multiline text node that strips c-style comments (i.e.'//' and '/* ... */') before passing output string downstream",
+        "files": [
+            "https://github.com/cdxOo/comfyui-text-node-with-comments"
+        ]
+    },
+    {
+        "name": "sd-webui-color-enhance",
+        "note": "Script for [a/AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) and node for ComfyUI to enhance colors.\nThis is the same algorithm GIMP/GEGL uses for color enhancement. The gist of this implementation is that it converts the color space to [CIELCh(ab) and normalizes the chroma (or '[a/colorfulness](https://en.wikipedia.org/wiki/Colorfulness)') component. Original source can be found in the link below.",
+        "files": [
+            "https://github.com/noarche/sd-webui-color-enhance"
+        ]
+    },
+    {
+        "name": "ComfyUI_Emojiiii_Custom_Nodes",
+        "note": "Nodes:MultiTextEncode, KolorsMultiTextEncode",
+        "files": [
+            "https://github.com/emojiiii/ComfyUI_Emojiiii_Custom_Nodes"
         ]
     },
     {

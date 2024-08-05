@@ -116,6 +116,9 @@
   "custom_nodes\\comfyui-lama-remover\\": "简单LAMA擦除",
   "custom_nodes\\ComfyUI-Bringing-Old-Photos-Back-to-Life": "老照片处理",
   "custom_nodes\\comfyui-image-round": "填充或者裁剪图像到整数尺寸",
+  "custom_nodes\\ComfyUI-Prompt-Preview ": "SDXL风格化提示词",
+  "custom_nodes\\comfyui-lama-remover ": "LAMA擦除",
+  "custom_nodes\\ComfyUI-MimicMotionWrapper": "动作指导生成视频",
   "custom_nodes\\": "",
   "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
