@@ -1,5 +1,28 @@
-import os
+import sys
 import subprocess
+import importlib
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+# 检查并安装所需的库
+required_packages = ['requests', 'pytz', 'prettytable', 'colorama']
+all_installed = True
+
+for package in required_packages:
+    try:
+        importlib.import_module(package)
+    except ImportError:
+        print(f"{package} 未安装，正在安装...")
+        install(package)
+        print(f"{package} 安装完成")
+        all_installed = False
+
+if all_installed:
+    print("所有必需的库已经安装。")
+
+# 现在导入所需的库
+import os
 import requests
 import json
 from datetime import datetime
