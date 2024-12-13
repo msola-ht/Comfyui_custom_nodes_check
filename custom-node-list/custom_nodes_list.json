@@ -9,7 +9,7 @@
         "files": [
             "https://github.com/AIGODLIKE/AIGODLIKE-COMFYUI-TRANSLATION"
         ],
-        "stars": 1865
+        "stars": 1866
     },
     "custom_nodes\\cg-image-picker": {
         "translation": "图像选择器",
@@ -119,14 +119,14 @@
         "files": [
             "https://github.com/chflame163/ComfyUI_LayerStyle"
         ],
-        "stars": 1642
+        "stars": 1643
     },
     "custom_nodes\\comfyui_LLM_party": {
         "translation": "语言模型，类似COZE的插件",
         "files": [
             "https://github.com/heshengtao/comfyui_LLM_party"
         ],
-        "stars": 1101
+        "stars": 1102
     },
     "custom_nodes\\ComfyUI_restart_sampling": {
         "translation": "ComfyUI_采样器",
@@ -316,7 +316,7 @@
         "files": [
             "https://github.com/kijai/ComfyUI-IC-Light"
         ],
-        "stars": 820
+        "stars": 821
     },
     "custom_nodes\\ComfyUI-IC-Light-Native": {
         "translation": "ComfyUI_IC光原生",
@@ -377,14 +377,14 @@
         "files": [
             "https://github.com/ltdrdata/ComfyUI-Manager"
         ],
-        "stars": 7394
+        "stars": 7395
     },
     "custom_nodes\\comfyui-mixlab-nodes": {
         "translation": "ComfyUI_Mixlab节点",
         "files": [
             "https://github.com/shadowcz007/comfyui-mixlab-nodes"
         ],
-        "stars": 1354
+        "stars": 1355
     },
     "custom_nodes\\ComfyUI-Marigold": {
         "translation": "Marigold深度估算",
@@ -453,7 +453,7 @@
         "stars": 1636
     },
     "custom_nodes\\Comfyui-StableSR": {
-        "translation": "颜色相关节点",
+        "translation": "图像超分辨率",
         "files": [],
         "stars": 0
     },
@@ -1036,6 +1036,138 @@
     },
     "custom_nodes\\ComfyUI-PuLID-Flux": {
         "translation": "Flux-PuLID换脸",
+        "files": [],
+        "stars": 0
+    },
+    "custom_nodes\\comfuinoda-Navyblue": {
+        "translation": "深深蓝-西格玛采样",
+        "files": [],
+        "stars": 0
+    },
+    "custom_nodes\\ComfyUI-AdvancedLivePortrait": {
+        "translation": "实时人脸图像",
+        "files": [
+            "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
+        ],
+        "stars": 2007
+    },
+    "custom_nodes\\ComfyUI-enricos-nodes": {
+        "translation": "图层节点",
+        "files": [
+            "https://github.com/erosDiffusion/ComfyUI-enricos-nodes"
+        ],
+        "stars": 332
+    },
+    "custom_nodes\\Comfyui-ergouzi-DGNJD": {
+        "translation": "二狗子-自定义节点",
+        "files": [],
+        "stars": 0
+    },
+    "custom_nodes\\ComfyUI-Inpaint-CropAndStitch": {
+        "translation": "重绘扩图",
+        "files": [
+            "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch"
+        ],
+        "stars": 418
+    },
+    "custom_nodes\\ComfyUI-MochiWrapper": {
+        "translation": "KJ-Mochi",
+        "files": [],
+        "stars": 0
+    },
+    "custom_nodes\\ComfyUI-NodeAligner": {
+        "translation": "节点对齐整理",
+        "files": [
+            "https://github.com/Tenney95/ComfyUI-NodeAligner"
+        ],
+        "stars": 87
+    },
+    "custom_nodes\\ComfyUI-OmniGen": {
+        "translation": "OmniGen图像生成",
+        "files": [
+            "https://github.com/1038lab/ComfyUI-OmniGen"
+        ],
+        "stars": 147
+    },
+    "custom_nodes\\ComfyUI-SAM2": {
+        "translation": "SAM2抠图",
+        "files": [
+            "https://github.com/neverbiasu/ComfyUI-SAM2"
+        ],
+        "stars": 88
+    },
+    "custom_nodes\\comfyui-tensorops": {
+        "translation": "TensorRT加速",
+        "files": [
+            "https://github.com/un-seen/comfyui-tensorops"
+        ],
+        "stars": 14
+    },
+    "custom_nodes\\ComfyUI-utils-nodes": {
+        "translation": "ComfyUI_工具集合",
+        "files": [
+            "https://github.com/zhangp365/ComfyUI-utils-nodes"
+        ],
+        "stars": 43
+    },
+    "custom_nodes\\ComfyUI_AdvancedRefluxControl": {
+        "translation": "Redux高级控制",
+        "files": [
+            "https://github.com/kaibioinfo/ComfyUI_AdvancedRefluxControl"
+        ],
+        "stars": 294
+    },
+    "custom_nodes\\comfyui_facetools": {
+        "translation": "脸部特征工具",
+        "files": [
+            "https://github.com/dchatel/comfyui_facetools"
+        ],
+        "stars": 81
+    },
+    "custom_nodes\\ComfyUI_InstantIR_Wrapper": {
+        "translation": "模糊修复",
+        "files": [
+            "https://github.com/smthemex/ComfyUI_InstantIR_Wrapper"
+        ],
+        "stars": 183
+    },
+    "custom_nodes\\ComfyUI_Mira": {
+        "translation": "ComfyUI_工具集合",
+        "files": [
+            "https://github.com/mirabarukaso/ComfyUI_Mira"
+        ],
+        "stars": 51
+    },
+    "custom_nodes\\ComfyUI_OmniGen_Wrapper": {
+        "translation": "OmniGen-图像生成",
+        "files": [
+            "https://github.com/chflame163/ComfyUI_OmniGen_Wrapper"
+        ],
+        "stars": 122
+    },
+    "custom_nodes\\ComfyUI_StoryDiffusion": {
+        "translation": "StoryDiffusion一致性",
+        "files": [
+            "https://github.com/smthemex/ComfyUI_StoryDiffusion"
+        ],
+        "stars": 248
+    },
+    "custom_nodes\\ComfyUI_WordCloud": {
+        "translation": "ComfyUI生成词云图像",
+        "files": [
+            "https://github.com/chflame163/ComfyUI_WordCloud"
+        ],
+        "stars": 96
+    },
+    "custom_nodes\\hd_node": {
+        "translation": "",
+        "files": [
+            "https://github.com/xiaoxiaodesha/hd_node"
+        ],
+        "stars": 13
+    },
+    "custom_nodes\\SDXL_EcomID_ComfyUI": {
+        "translation": "SDXL阿里妈妈换脸",
         "files": [],
         "stars": 0
     },
