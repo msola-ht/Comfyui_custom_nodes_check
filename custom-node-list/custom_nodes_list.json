@@ -1034,6 +1034,11 @@
         ],
         "stars": 139
     },
+    "custom_nodes\\ComfyUI-PuLID-Flux": {
+        "translation": "Flux-PuLID换脸",
+        "files": [],
+        "stars": 0
+    },
     "custom_nodes\\": {
         "translation": "",
         "files": [],

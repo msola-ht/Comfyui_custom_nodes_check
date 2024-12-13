@@ -152,6 +152,7 @@
   "custom_nodes\\ComfyUI_SLK_joy_caption_two": "JOY2",
   "custom_nodes\\Comfyui_TTP_Toolset": "汤团-工具箱",
   "custom_nodes\\quick-connections": "快速连接",
-  "custom_nodes\\": "", 
+  "custom_nodes\\ComfyUI-PuLID-Flux": "Flux-PuLID换脸",
+  "custom_nodes\\": "",
   "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
