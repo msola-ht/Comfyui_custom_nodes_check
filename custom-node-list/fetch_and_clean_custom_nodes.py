@@ -3,7 +3,7 @@ import re
 import requests
 
 # 远程 JSON 文件的 URL
-url = 'https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json'
+url = 'https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/refs/heads/main/custom-node-list.json'
 
 # 使用 requests 获取远程文件内容
 response = requests.get(url)
