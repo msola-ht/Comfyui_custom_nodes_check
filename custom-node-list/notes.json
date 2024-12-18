@@ -175,6 +175,7 @@
   "custom_nodes\\hd_node": "暂无介绍",
   "custom_nodes\\SDXL_EcomID_ComfyUI": "SDXL阿里妈妈换脸",
   "custom_nodes\\ComfyUI_CatVTON_Wrapper": "葫芦娃-CatVTON换衣服",
+  "custom_nodes\\ComfyUI_HelloMeme": "基于SD1.5的图片及视频表情和动作迁移",
   "custom_nodes\\": "",
   "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }

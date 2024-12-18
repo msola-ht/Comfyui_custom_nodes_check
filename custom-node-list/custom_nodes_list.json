@@ -9,84 +9,84 @@
         "files": [
             "https://github.com/AIGODLIKE/AIGODLIKE-COMFYUI-TRANSLATION"
         ],
-        "stars": 1870
+        "stars": 1877
     },
     "custom_nodes\\cg-image-picker": {
         "translation": "图像选择器",
         "files": [
             "https://github.com/chrisgoringe/cg-image-picker"
         ],
-        "stars": 277
+        "stars": 280
     },
     "custom_nodes\\cg-use-everywhere": {
         "translation": "主要是全局输出节点，可以免接线",
         "files": [
             "https://github.com/chrisgoringe/cg-use-everywhere"
         ],
-        "stars": 530
+        "stars": 536
     },
     "custom_nodes\\comfy-image-saver": {
         "translation": "ComfyUI_图像保存工具",
         "files": [
             "https://github.com/giriss/comfy-image-saver"
         ],
-        "stars": 207
+        "stars": 208
     },
     "custom_nodes\\ComfyLiterals": {
         "translation": "ComfyUI_字面量",
         "files": [
             "https://github.com/M1kep/ComfyLiterals"
         ],
-        "stars": 25
+        "stars": 27
     },
     "custom_nodes\\ComfyMath": {
         "translation": "ComfyUI_数学",
         "files": [
             "https://github.com/evanspearman/ComfyMath"
         ],
-        "stars": 90
+        "stars": 92
     },
     "custom_nodes\\ComfyUI_ADV_CLIP_emb": {
         "translation": "级CLIP文本编码器，可以使用A111权重",
         "files": [
             "https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb"
         ],
-        "stars": 332
+        "stars": 334
     },
     "custom_nodes\\ComfyUI_Comfyroll_CustomNodes": {
         "translation": "自定义节点",
         "files": [
             "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
         ],
-        "stars": 712
+        "stars": 713
     },
     "custom_nodes\\comfyui_controlnet_aux": {
         "translation": "ControlNet预处理器",
         "files": [
             "https://github.com/Fannovel16/comfyui_controlnet_aux"
         ],
-        "stars": 2410
+        "stars": 2421
     },
     "custom_nodes\\ComfyUI_essentials": {
         "translation": "ComfyUI_基础功能",
         "files": [
             "https://github.com/cubiq/ComfyUI_essentials"
         ],
-        "stars": 638
+        "stars": 640
     },
     "custom_nodes\\ComfyUI_FaceAnalysis": {
         "translation": "ComfyUI_面部分析",
         "files": [
             "https://github.com/cubiq/ComfyUI_FaceAnalysis"
         ],
-        "stars": 350
+        "stars": 355
     },
     "custom_nodes\\ComfyUI_FizzNodes": {
         "translation": "ComfyUI_Fizz节点",
         "files": [
             "https://github.com/FizzleDorf/ComfyUI_FizzNodes"
         ],
-        "stars": 403
+        "stars": 405
     },
     "custom_nodes\\Comfyui_image2prompt": {
         "translation": "ComfyUI_图像反推提示词",
@@ -98,14 +98,14 @@
         "files": [
             "https://github.com/cubiq/ComfyUI_InstantID"
         ],
-        "stars": 1351
+        "stars": 1358
     },
     "custom_nodes\\ComfyUI_IPAdapter_plus": {
         "translation": "IPAdapter风格模仿、人脸插件",
         "files": [
             "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
         ],
-        "stars": 4299
+        "stars": 4320
     },
     "custom_nodes\\ComfyUI_Jags_VectorMagic": {
         "translation": "用于探索矢量和图像处理的节点集合",
@@ -119,35 +119,35 @@
         "files": [
             "https://github.com/chflame163/ComfyUI_LayerStyle"
         ],
-        "stars": 1650
+        "stars": 1663
     },
     "custom_nodes\\comfyui_LLM_party": {
         "translation": "语言模型，类似COZE的插件",
         "files": [
             "https://github.com/heshengtao/comfyui_LLM_party"
         ],
-        "stars": 1109
+        "stars": 1125
     },
     "custom_nodes\\ComfyUI_restart_sampling": {
         "translation": "ComfyUI_采样器",
         "files": [
             "https://github.com/ssitu/ComfyUI_restart_sampling"
         ],
-        "stars": 83
+        "stars": 84
     },
     "custom_nodes\\comfyui_segment_anything": {
         "translation": "ComfyUI_语义图像分割蒙版",
         "files": [
             "https://github.com/storyicon/comfyui_segment_anything"
         ],
-        "stars": 774
+        "stars": 780
     },
     "custom_nodes\\ComfyUI_smZNodes": {
         "translation": "ComfyUI_CLIP编码器，可用A111权重",
         "files": [
             "https://github.com/shiimizu/ComfyUI_smZNodes"
         ],
-        "stars": 225
+        "stars": 226
     },
     "custom_nodes\\ComfyUI_Text_Translation": {
         "translation": "ComfyUI_文本翻译",
@@ -159,21 +159,21 @@
         "files": [
             "https://github.com/JettHu/ComfyUI_TGate"
         ],
-        "stars": 83
+        "stars": 84
     },
     "custom_nodes\\ComfyUI_tinyterraNodes": {
         "translation": "多功能整合节点",
         "files": [
             "https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
         ],
-        "stars": 434
+        "stars": 435
     },
     "custom_nodes\\ComfyUI_UltimateSDUpscale": {
         "translation": "SD放大",
         "files": [
             "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
         ],
-        "stars": 901
+        "stars": 904
     },
     "custom_nodes\\ComfyUI-Advanced-ControlNet": {
         "translation": "高级ControlNet",
@@ -194,14 +194,14 @@
         "files": [
             "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
         ],
-        "stars": 2823
+        "stars": 2835
     },
     "custom_nodes\\ComfyUI-Anyline": {
         "translation": "ComfyUI_任意线条",
         "files": [
             "https://github.com/TheMistoAI/ComfyUI-Anyline"
         ],
-        "stars": 411
+        "stars": 412
     },
     "custom_nodes\\ComfyUI-ArtGallery": {
         "translation": "ComfyUI_艺术画廊_提示词可视化",
@@ -215,21 +215,21 @@
         "files": [
             "https://github.com/sipherxyz/comfyui-art-venture"
         ],
-        "stars": 172
+        "stars": 173
     },
     "custom_nodes\\ComfyUI-AutoCropFaces": {
         "translation": "ComfyUI_自动裁剪人脸",
         "files": [
             "https://github.com/liusida/ComfyUI-AutoCropFaces"
         ],
-        "stars": 62
+        "stars": 63
     },
     "custom_nodes\\ComfyUI-AutomaticCFG": {
         "translation": "ComfyUI_自动CFG",
         "files": [
             "https://github.com/Extraltodeus/ComfyUI-AutomaticCFG"
         ],
-        "stars": 367
+        "stars": 366
     },
     "custom_nodes\\ComfyUI-BiRefNet-ZHO": {
         "translation": "ComfyUI_BiRefNet中文版_移除背景",
@@ -241,21 +241,21 @@
         "files": [
             "https://github.com/ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG"
         ],
-        "stars": 722
+        "stars": 724
     },
     "custom_nodes\\ComfyUI-BrushNet": {
         "translation": "ComfyUI_BrushNet 擦除、重绘等",
         "files": [
             "https://github.com/nullquant/ComfyUI-BrushNet"
         ],
-        "stars": 678
+        "stars": 681
     },
     "custom_nodes\\ComfyUI-Crystools": {
         "translation": "ComfyUI_资源监视器",
         "files": [
             "https://github.com/crystian/ComfyUI-Crystools"
         ],
-        "stars": 864
+        "stars": 866
     },
     "custom_nodes\\ComfyUI-CCSR": {
         "translation": "CCSR放大",
@@ -269,14 +269,14 @@
         "files": [
             "https://github.com/kijai/ComfyUI-DDColor"
         ],
-        "stars": 125
+        "stars": 126
     },
     "custom_nodes\\ComfyUI-Dev-Utils": {
         "translation": "开发者工具，可以看到每个节点的时间",
         "files": [
             "https://github.com/ty0x2333/ComfyUI-Dev-Utils"
         ],
-        "stars": 97
+        "stars": 98
     },
     "custom_nodes\\ComfyUI-DynamiCrafterWrapper": {
         "translation": "ComfyUI_DynamiCrafter_动画视频",
@@ -295,7 +295,7 @@
         "files": [
             "https://github.com/yolain/ComfyUI-Easy-Use"
         ],
-        "stars": 1132
+        "stars": 1151
     },
     "custom_nodes\\ComfyUI-Frame-Interpolation": {
         "translation": "ComfyUI_帧插值",
@@ -309,35 +309,35 @@
         "files": [
             "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Gemini"
         ],
-        "stars": 680
+        "stars": 682
     },
     "custom_nodes\\ComfyUI-IC-Light": {
         "translation": "ComfyUI_IC光",
         "files": [
             "https://github.com/kijai/ComfyUI-IC-Light"
         ],
-        "stars": 824
+        "stars": 833
     },
     "custom_nodes\\ComfyUI-IC-Light-Native": {
         "translation": "ComfyUI_IC光原生",
         "files": [
             "https://github.com/huchenlei/ComfyUI-IC-Light-Native"
         ],
-        "stars": 548
+        "stars": 552
     },
     "custom_nodes\\ComfyUI-IF_AI_tools": {
         "translation": "ComfyUI_IF AI工具",
         "files": [
             "https://github.com/if-ai/ComfyUI-IF_AI_tools"
         ],
-        "stars": 547
+        "stars": 552
     },
     "custom_nodes\\ComfyUI-Impact-Pack": {
         "translation": "ComfyUI_Impact包",
         "files": [
             "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
         ],
-        "stars": 1972
+        "stars": 1983
     },
     "custom_nodes\\ComfyUI-Inference-Core-Nodes": {
         "translation": "ComfyUI_推理核心节点",
@@ -349,21 +349,21 @@
         "files": [
             "https://github.com/Acly/comfyui-inpaint-nodes"
         ],
-        "stars": 720
+        "stars": 724
     },
     "custom_nodes\\ComfyUI-Inspire-Pack": {
         "translation": "ComfyUI_灵感包",
         "files": [
             "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
         ],
-        "stars": 458
+        "stars": 461
     },
     "custom_nodes\\ComfyUI-KJNodes": {
         "translation": "ComfyUI_KJ节点",
         "files": [
             "https://github.com/kijai/ComfyUI-KJNodes"
         ],
-        "stars": 721
+        "stars": 727
     },
     "custom_nodes\\ComfyUI-Logic": {
         "translation": "ComfyUI_逻辑",
@@ -377,21 +377,21 @@
         "files": [
             "https://github.com/ltdrdata/ComfyUI-Manager"
         ],
-        "stars": 7412
+        "stars": 7466
     },
     "custom_nodes\\comfyui-mixlab-nodes": {
         "translation": "ComfyUI_Mixlab节点",
         "files": [
             "https://github.com/shadowcz007/comfyui-mixlab-nodes"
         ],
-        "stars": 1356
+        "stars": 1361
     },
     "custom_nodes\\ComfyUI-Marigold": {
         "translation": "Marigold深度估算",
         "files": [
             "https://github.com/kijai/ComfyUI-Marigold"
         ],
-        "stars": 481
+        "stars": 482
     },
     "custom_nodes\\ComfyUI-N-Sidebar": {
         "translation": "ComfyUI_N侧边栏",
@@ -405,7 +405,7 @@
         "files": [
             "https://github.com/ZHO-ZHO-ZHO/comfyui-portrait-master-zh-cn"
         ],
-        "stars": 1622
+        "stars": 1628
     },
     "custom_nodes\\ComfyUI-Prompt-MZ": {
         "translation": "ComfyUI_提示词MZ",
@@ -426,7 +426,7 @@
         "files": [
             "https://github.com/Gourieff/comfyui-reactor-node"
         ],
-        "stars": 1669
+        "stars": 1682
     },
     "custom_nodes\\ComfyUI-SDXL-Style-Preview": {
         "translation": "ComfyUI_SDXL样式预览",
@@ -438,7 +438,7 @@
         "files": [
             "https://github.com/spinagon/ComfyUI-seamless-tiling"
         ],
-        "stars": 164
+        "stars": 166
     },
     "custom_nodes\\comfyui-sixgod_prompt": {
         "translation": "ComfyUI_六神提示词",
@@ -450,7 +450,7 @@
         "files": [
             "https://github.com/kijai/ComfyUI-SUPIR"
         ],
-        "stars": 1639
+        "stars": 1647
     },
     "custom_nodes\\Comfyui-StableSR": {
         "translation": "图像超分辨率",
@@ -462,14 +462,14 @@
         "files": [
             "https://github.com/shiimizu/ComfyUI-TiledDiffusion"
         ],
-        "stars": 342
+        "stars": 343
     },
     "custom_nodes\\ComfyUI-Universal-Styler": {
         "translation": "ComfyUI_通用样式器",
         "files": [
             "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
         ],
-        "stars": 48
+        "stars": 50
     },
     "custom_nodes\\comfyui-various": {
         "translation": "ComfyUI_各种",
@@ -483,35 +483,35 @@
         "files": [
             "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
         ],
-        "stars": 652
+        "stars": 663
     },
     "custom_nodes\\ComfyUI-WD14-Tagger": {
         "translation": "ComfyUI_WD14标签器",
         "files": [
             "https://github.com/pythongosssss/ComfyUI-WD14-Tagger"
         ],
-        "stars": 682
+        "stars": 686
     },
     "custom_nodes\\comfyui-workspace-manager": {
         "translation": "ComfyUI_工作流管理",
         "files": [
             "https://github.com/11cafe/comfyui-workspace-manager"
         ],
-        "stars": 1154
+        "stars": 1158
     },
     "custom_nodes\\ComfyUI-YoloWorld-EfficientSAM": {
         "translation": "yolo分割识别",
         "files": [
             "https://github.com/ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM"
         ],
-        "stars": 638
+        "stars": 640
     },
     "custom_nodes\\Derfuu_ComfyUI_ModdedNodes": {
         "translation": "ComfyUI_Derfuu修改节点",
         "files": [
             "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
         ],
-        "stars": 369
+        "stars": 370
     },
     "custom_nodes\\eden_comfy_pipelines": {
         "translation": "ComfyUI_Eden管道",
@@ -525,91 +525,91 @@
         "files": [
             "https://github.com/jags111/efficiency-nodes-comfyui"
         ],
-        "stars": 1030
+        "stars": 1035
     },
     "custom_nodes\\facerestore_cf": {
         "translation": "ComfyUI_面部修复",
         "files": [
             "https://github.com/mav-rik/facerestore_cf"
         ],
-        "stars": 225
+        "stars": 229
     },
     "custom_nodes\\masquerade-nodes-comfyui": {
         "translation": "ComfyUI_化装节点",
         "files": [
             "https://github.com/BadCafeCode/masquerade-nodes-comfyui"
         ],
-        "stars": 371
+        "stars": 374
     },
     "custom_nodes\\PuLID_ComfyUI": {
         "translation": "ComfyUI_PuLID人脸插件",
         "files": [
             "https://github.com/cubiq/PuLID_ComfyUI"
         ],
-        "stars": 735
+        "stars": 737
     },
     "custom_nodes\\mikey_nodes": {
         "translation": "ComfyUI_Mikey节点",
         "files": [
             "https://github.com/bash-j/mikey_nodes"
         ],
-        "stars": 118
+        "stars": 119
     },
     "custom_nodes\\rgthree-comfy": {
         "translation": "ComfyUI_rgthree工具",
         "files": [
             "https://github.com/rgthree/rgthree-comfy"
         ],
-        "stars": 1282
+        "stars": 1305
     },
     "custom_nodes\\sd-perturbed-attention": {
         "translation": "SD扰动注意力",
         "files": [
             "https://github.com/pamparamm/sd-perturbed-attention"
         ],
-        "stars": 225
+        "stars": 226
     },
     "custom_nodes\\stability-ComfyUI-nodes": {
         "translation": "稳定性ComfyUI节点",
         "files": [
             "https://github.com/Stability-AI/stability-ComfyUI-nodes"
         ],
-        "stars": 201
+        "stars": 200
     },
     "custom_nodes\\was-node-suite-comfyui": {
         "translation": "ComfyUI_WAS节点套件",
         "files": [
             "https://github.com/WASasquatch/was-node-suite-comfyui"
         ],
-        "stars": 1251
+        "stars": 1261
     },
     "custom_nodes\\wlsh_nodes": {
         "translation": "ComfyUI_wlsh节点",
         "files": [
             "https://github.com/wallish77/wlsh_nodes"
         ],
-        "stars": 101
+        "stars": 102
     },
     "custom_nodes\\ComfyUI-Custom-Scripts": {
         "translation": "ComfyUI_多功能脚本",
         "files": [
             "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
         ],
-        "stars": 1928
+        "stars": 1933
     },
     "custom_nodes\\ComfyUI-layerdiffuse": {
         "translation": "ComfyUI_图层节点",
         "files": [
             "https://github.com/huchenlei/ComfyUI-layerdiffuse"
         ],
-        "stars": 1517
+        "stars": 1520
     },
     "custom_nodes\\ComfyUI-DepthAnythingV2": {
         "translation": "ComfyUI_深度处理",
         "files": [
             "https://github.com/kijai/ComfyUI-DepthAnythingV2"
         ],
-        "stars": 213
+        "stars": 216
     },
     "custom_nodes\\ComfyUI-champWrapper": {
         "translation": "通过3D参数引导实现可控且一致的人体图像动画",
@@ -628,7 +628,7 @@
         "files": [
             "https://github.com/omar92/ComfyUI-QualityOfLifeSuit_Omar92"
         ],
-        "stars": 137
+        "stars": 138
     },
     "custom_nodes\\comfyui_bmad_nodes": {
         "translation": "自定义合集",
@@ -661,14 +661,14 @@
         "files": [
             "https://github.com/twri/sdxl_prompt_styler"
         ],
-        "stars": 776
+        "stars": 778
     },
     "custom_nodes\\ComfyUI_VLM_nodes": {
         "translation": "本地大语言模型",
         "files": [
             "https://github.com/gokayfem/ComfyUI_VLM_nodes"
         ],
-        "stars": 429
+        "stars": 430
     },
     "custom_nodes\\style_aligned_comfy": {
         "translation": "StyleA ligned风格对齐图形生成",
@@ -682,7 +682,7 @@
         "files": [
             "https://github.com/Nourepide/ComfyUI-Allor"
         ],
-        "stars": 228
+        "stars": 229
     },
     "custom_nodes\\ComfyUI-Text_Image-Composite": {
         "translation": "文本-图像-组合",
@@ -696,49 +696,49 @@
         "files": [
             "https://github.com/Acly/comfyui-tooling-nodes"
         ],
-        "stars": 342
+        "stars": 348
     },
     "custom_nodes\\ComfyUI-PixelArt-Detector": {
         "translation": "像素化插件",
         "files": [
             "https://github.com/dimtoneff/ComfyUI-PixelArt-Detector"
         ],
-        "stars": 222
+        "stars": 223
     },
     "custom_nodes\\ComfyUI-post-processing-nodes": {
         "translation": "可实现多种酷炫的图像特效",
         "files": [
             "https://github.com/EllangoK/ComfyUI-post-processing-nodes"
         ],
-        "stars": 187
+        "stars": 188
     },
     "custom_nodes\\ComfyUI_Custom_Nodes_AlekPet": {
         "translation": "翻译插件",
         "files": [
             "https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet"
         ],
-        "stars": 936
+        "stars": 942
     },
     "custom_nodes\\ComfyUI-KwaiKolorsWrapper": {
         "translation": "kijai/可图",
         "files": [
             "https://github.com/kijai/ComfyUI-KwaiKolorsWrapper"
         ],
-        "stars": 566
+        "stars": 567
     },
     "custom_nodes\\ComfyUI-Florence2": {
         "translation": "微软的Florence2，可反推提示词，速度快",
         "files": [
             "https://github.com/kijai/ComfyUI-Florence2"
         ],
-        "stars": 802
+        "stars": 821
     },
     "custom_nodes\\ComfyUI-Kolors-MZ": {
         "translation": "MZ/可图",
         "files": [
             "https://github.com/MinusZoneAI/ComfyUI-Kolors-MZ"
         ],
-        "stars": 514
+        "stars": 516
     },
     "custom_nodes\\DZ-FaceDetailer": {
         "translation": "利用人脸的插件",
@@ -757,21 +757,21 @@
         "files": [
             "https://github.com/kadirnar/ComfyUI-YOLO"
         ],
-        "stars": 50
+        "stars": 51
     },
     "custom_nodes\\ComfyUI-BiRefNet": {
         "translation": "扣蒙版",
         "files": [
             "https://github.com/viperyl/ComfyUI-BiRefNet"
         ],
-        "stars": 241
+        "stars": 242
     },
     "custom_nodes\\comfyui-photoshop": {
         "translation": "Photoshop插件",
         "files": [
             "https://github.com/NimaNzrii/comfyui-photoshop"
         ],
-        "stars": 710
+        "stars": 720
     },
     "custom_nodes\\comfyui-lama-remover\\": {
         "translation": "简单LAMA擦除",
@@ -783,14 +783,14 @@
         "files": [
             "https://github.com/cdb-boop/ComfyUI-Bringing-Old-Photos-Back-to-Life"
         ],
-        "stars": 381
+        "stars": 383
     },
     "custom_nodes\\comfyui-image-round": {
         "translation": "填充或者裁剪图像到整数尺寸",
         "files": [
             "https://github.com/cdb-boop/comfyui-image-round"
         ],
-        "stars": 4
+        "stars": 5
     },
     "custom_nodes\\ComfyUI-Prompt-Preview ": {
         "translation": "SDXL风格化提示词",
@@ -807,14 +807,14 @@
         "files": [
             "https://github.com/kijai/ComfyUI-MimicMotionWrapper"
         ],
-        "stars": 350
+        "stars": 353
     },
     "custom_nodes\\ComfyUI-GGUF": {
         "translation": "comfyui支持GGUF模型插件，可用于FLUX1",
         "files": [
             "https://github.com/city96/ComfyUI-GGUF"
         ],
-        "stars": 1156
+        "stars": 1177
     },
     "custom_nodes\\ComfyUI_bitsandbytes_NF4": {
         "translation": "FLUX1的NF4实现",
@@ -826,21 +826,21 @@
         "files": [
             "https://github.com/comfyanonymous/ComfyUI_experiments"
         ],
-        "stars": 165
+        "stars": 166
     },
     "custom_nodes\\ComfyUI_TiledKSampler": {
         "translation": "ComfyUI的Tile采样器",
         "files": [
             "https://github.com/BlenderNeko/ComfyUI_TiledKSampler"
         ],
-        "stars": 339
+        "stars": 340
     },
     "custom_nodes\\FreeU_Advanced": {
         "translation": "暂无介绍",
         "files": [
             "https://github.com/WASasquatch/FreeU_Advanced"
         ],
-        "stars": 112
+        "stars": 113
     },
     "custom_nodes\\images-grid-comfy-plugin": {
         "translation": "暂无介绍",
@@ -861,112 +861,112 @@
         "files": [
             "https://github.com/kijai/ComfyUI-CogVideoXWrapper"
         ],
-        "stars": 1143
+        "stars": 1162
     },
     "custom_nodes\\ComfyUi-Ollama-YN": {
         "translation": "ollama插件",
         "files": [
             "https://github.com/wujm424606/ComfyUi-Ollama-YN"
         ],
-        "stars": 73
+        "stars": 74
     },
     "custom_nodes\\ComfyUI-segment-anything-2": {
         "translation": "sam2图片和视频抠图",
         "files": [
             "https://github.com/kijai/ComfyUI-segment-anything-2"
         ],
-        "stars": 682
+        "stars": 689
     },
     "custom_nodes\\ComfyUI_3dPoseEditor": {
         "translation": "3D骨骼POSE插件",
         "files": [
             "https://github.com/hinablue/ComfyUI_3dPoseEditor"
         ],
-        "stars": 165
+        "stars": 167
     },
     "custom_nodes\\ComfyUI_ProPainter_Nodes": {
         "translation": "视频修复",
         "files": [
             "https://github.com/daniabib/ComfyUI_ProPainter_Nodes"
         ],
-        "stars": 249
+        "stars": 251
     },
     "custom_nodes\\comfy_mtb": {
         "translation": "暂无介绍",
         "files": [
             "https://github.com/melMass/comfy_mtb"
         ],
-        "stars": 469
+        "stars": 472
     },
     "custom_nodes\\BizyAir": {
         "translation": "硅基云端API调用",
         "files": [
             "https://github.com/siliconflow/BizyAir"
         ],
-        "stars": 428
+        "stars": 435
     },
     "custom_nodes\\ComfyUI-BiRefNet-Hugo": {
         "translation": "擦除背景,可生成白底图",
         "files": [
             "https://github.com/MoonHugo/ComfyUI-BiRefNet-Hugo"
         ],
-        "stars": 174
+        "stars": 176
     },
     "custom_nodes\\ComfyUI-FluxExt-MZ": {
         "translation": "Flux-分层加载",
         "files": [
             "https://github.com/MinusZoneAI/ComfyUI-FluxExt-MZ"
         ],
-        "stars": 192
+        "stars": 194
     },
     "custom_nodes\\ComfyUI-Fluxtapoz": {
         "translation": "Flux-风格迁移",
         "files": [
             "https://github.com/logtd/ComfyUI-Fluxtapoz"
         ],
-        "stars": 758
+        "stars": 781
     },
     "custom_nodes\\ComfyUI-FluxTrainer": {
         "translation": "Flux-LORA训练",
         "files": [
             "https://github.com/kijai/ComfyUI-FluxTrainer"
         ],
-        "stars": 555
+        "stars": 563
     },
     "custom_nodes\\ComfyUI-HunyuanVideoWrapper": {
         "translation": "腾讯混元视频",
         "files": [
             "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper"
         ],
-        "stars": 905
+        "stars": 1014
     },
     "custom_nodes\\ComfyUI-Impact-Subpack": {
         "translation": "Impact-子包",
         "files": [
             "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
         ],
-        "stars": 72
+        "stars": 79
     },
     "custom_nodes\\ComfyUI-Inspyrenet-Rembg": {
         "translation": "背景移除,可出PNG",
         "files": [
             "https://github.com/john-mnz/ComfyUI-Inspyrenet-Rembg"
         ],
-        "stars": 397
+        "stars": 398
     },
     "custom_nodes\\ComfyUI-InstantX-IPAdapter-SD3": {
         "translation": "SD3.5-IPA",
         "files": [
             "https://github.com/Slickytail/ComfyUI-InstantX-IPAdapter-SD3"
         ],
-        "stars": 36
+        "stars": 40
     },
     "custom_nodes\\ComfyUI-IPAdapter-Flux": {
         "translation": "Flux-IPA",
         "files": [
             "https://github.com/Shakker-Labs/ComfyUI-IPAdapter-Flux"
         ],
-        "stars": 202
+        "stars": 211
     },
     "custom_nodes\\ComfyUI-MMAudio": {
         "translation": "视频生成音频",
@@ -985,7 +985,7 @@
         "files": [
             "https://github.com/huanngzh/ComfyUI-MVAdapter"
         ],
-        "stars": 138
+        "stars": 160
     },
     "custom_nodes\\ComfyUI_BrushNet": {
         "translation": "去除背景",
@@ -1004,35 +1004,35 @@
         "files": [
             "https://github.com/TTPlanetPig/Comfyui_JC2"
         ],
-        "stars": 148
+        "stars": 150
     },
     "custom_nodes\\ComfyUI_LayerStyle_Advance": {
         "translation": "葫芦娃-LayerStyle-高级模块",
         "files": [
             "https://github.com/chflame163/ComfyUI_LayerStyle_Advance"
         ],
-        "stars": 64
+        "stars": 76
     },
     "custom_nodes\\ComfyUI_SLK_joy_caption_two": {
         "translation": "JOY2",
         "files": [
             "https://github.com/EvilBT/ComfyUI_SLK_joy_caption_two"
         ],
-        "stars": 231
+        "stars": 239
     },
     "custom_nodes\\Comfyui_TTP_Toolset": {
         "translation": "汤团-工具箱",
         "files": [
             "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset"
         ],
-        "stars": 364
+        "stars": 373
     },
     "custom_nodes\\quick-connections": {
         "translation": "快速连接",
         "files": [
             "https://github.com/niknah/quick-connections"
         ],
-        "stars": 139
+        "stars": 145
     },
     "custom_nodes\\ComfyUI-PuLID-Flux": {
         "translation": "Flux-PuLID换脸",
@@ -1049,14 +1049,14 @@
         "files": [
             "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
         ],
-        "stars": 2012
+        "stars": 2034
     },
     "custom_nodes\\ComfyUI-enricos-nodes": {
         "translation": "图层节点",
         "files": [
             "https://github.com/erosDiffusion/ComfyUI-enricos-nodes"
         ],
-        "stars": 332
+        "stars": 334
     },
     "custom_nodes\\Comfyui-ergouzi-DGNJD": {
         "translation": "二狗子-自定义节点",
@@ -1068,7 +1068,7 @@
         "files": [
             "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch"
         ],
-        "stars": 419
+        "stars": 424
     },
     "custom_nodes\\ComfyUI-MochiWrapper": {
         "translation": "KJ-Mochi",
@@ -1080,21 +1080,21 @@
         "files": [
             "https://github.com/Tenney95/ComfyUI-NodeAligner"
         ],
-        "stars": 88
+        "stars": 90
     },
     "custom_nodes\\ComfyUI-OmniGen": {
         "translation": "OmniGen图像生成",
         "files": [
             "https://github.com/1038lab/ComfyUI-OmniGen"
         ],
-        "stars": 147
+        "stars": 152
     },
     "custom_nodes\\ComfyUI-SAM2": {
         "translation": "SAM2抠图",
         "files": [
             "https://github.com/neverbiasu/ComfyUI-SAM2"
         ],
-        "stars": 88
+        "stars": 93
     },
     "custom_nodes\\comfyui-tensorops": {
         "translation": "TensorRT加速",
@@ -1115,42 +1115,42 @@
         "files": [
             "https://github.com/kaibioinfo/ComfyUI_AdvancedRefluxControl"
         ],
-        "stars": 298
+        "stars": 326
     },
     "custom_nodes\\comfyui_facetools": {
         "translation": "脸部特征工具",
         "files": [
             "https://github.com/dchatel/comfyui_facetools"
         ],
-        "stars": 82
+        "stars": 83
     },
     "custom_nodes\\ComfyUI_InstantIR_Wrapper": {
         "translation": "模糊修复",
         "files": [
             "https://github.com/smthemex/ComfyUI_InstantIR_Wrapper"
         ],
-        "stars": 183
+        "stars": 186
     },
     "custom_nodes\\ComfyUI_Mira": {
         "translation": "ComfyUI_工具集合",
         "files": [
             "https://github.com/mirabarukaso/ComfyUI_Mira"
         ],
-        "stars": 52
+        "stars": 54
     },
     "custom_nodes\\ComfyUI_OmniGen_Wrapper": {
         "translation": "OmniGen-图像生成",
         "files": [
             "https://github.com/chflame163/ComfyUI_OmniGen_Wrapper"
         ],
-        "stars": 122
+        "stars": 123
     },
     "custom_nodes\\ComfyUI_StoryDiffusion": {
         "translation": "StoryDiffusion一致性",
         "files": [
             "https://github.com/smthemex/ComfyUI_StoryDiffusion"
         ],
-        "stars": 248
+        "stars": 249
     },
     "custom_nodes\\ComfyUI_WordCloud": {
         "translation": "ComfyUI生成词云图像",
@@ -1164,7 +1164,7 @@
         "files": [
             "https://github.com/xiaoxiaodesha/hd_node"
         ],
-        "stars": 13
+        "stars": 14
     },
     "custom_nodes\\SDXL_EcomID_ComfyUI": {
         "translation": "SDXL阿里妈妈换脸",
@@ -1176,7 +1176,14 @@
         "files": [
             "https://github.com/chflame163/ComfyUI_CatVTON_Wrapper"
         ],
-        "stars": 259
+        "stars": 262
+    },
+    "custom_nodes\\ComfyUI_HelloMeme": {
+        "translation": "基于SD1.5的图片及视频表情和动作迁移",
+        "files": [
+            "https://github.com/HelloVision/ComfyUI_HelloMeme"
+        ],
+        "stars": 301
     },
     "custom_nodes\\": {
         "translation": "",

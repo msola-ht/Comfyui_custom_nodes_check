@@ -1988,6 +1988,13 @@
         ]
     },
     {
+        "name": "ComfyUI-Thumbnails",
+        "note": "Load Image thumbnails, delete images, browse input subfolders.",
+        "files": [
+            "https://github.com/audioscavenger/ComfyUI-Thumbnails"
+        ]
+    },
+    {
         "name": "ComfyUI-LexTools",
         "note": "ComfyUI-LexTools is a Python-based image processing and analysis toolkit that uses machine learning models for semantic image segmentation, image scoring, and image captioning.",
         "files": [
@@ -4403,6 +4410,13 @@
         ]
     },
     {
+        "name": "Comfyui_Gemini2",
+        "note": "NODES:CXH_Gemini2_TX, CXH_Gemini2_Vision, CXH_Local_Prompt",
+        "files": [
+            "https://github.com/StartHua/Comfyui_Gemini2"
+        ]
+    },
+    {
         "name": "comfyui-ricklove",
         "note": "Nodes: Image Crop and Resize by Mask, Image Uncrop, Image Shadow, Optical Flow (Dip), Warp Image with Flow, Image Threshold (Channels), Finetune Variable, Finetune Analyze, Finetune Analyze Batch, ... Misc ComfyUI nodes by Rick Love",
         "files": [
@@ -4645,6 +4659,13 @@
         "note": "A custom node for ComfyUI that enables coherent video generation while maintaining efficient memory usage, specifically optimized for heavy models like Flux.",
         "files": [
             "https://github.com/ShmuelRonen/ComfyUI-CohernetVideoSampler"
+        ]
+    },
+    {
+        "name": "ComfyUI-Gemini_Flash_2.0_Exp",
+        "note": "A ComfyUI custom node that integrates Google's Gemini Flash 2.0 Experimental model, enabling multimodal analysis of text, images, video frames, and audio directly within ComfyUI workflows.",
+        "files": [
+            "https://github.com/ShmuelRonen/ComfyUI-Gemini_Flash_2.0_Exp"
         ]
     },
     {
@@ -5356,9 +5377,16 @@
     },
     {
         "name": "ComfyUI-IF_MemoAvatar",
-        "note": "This is a ComfyUI implementation of MEMO (Memory-Guided Diffusion for Expressive Talking Video Generation), which enables the creation of expressive talking avatar videos from a single image and audio input.",
+        "note": "ComfyUI MemoAvatar is a talking head avatar generator using Memory-Guided Diffusion for Expressive Talking Video Generation",
         "files": [
             "https://github.com/if-ai/ComfyUI-IF_MemoAvatar"
+        ]
+    },
+    {
+        "name": "ComfyUI-IF_Trellis",
+        "note": "ComfyUI TRELLIS is a large 3D asset generation in various formats, such as Radiance Fields, 3D Gaussians, and meshes. The cornerstone of TRELLIS is a unified Structured LATent (SLAT) representation that allows decoding to different output formats and Rectified Flow Transformers tailored for SLAT as the powerful backbones.",
+        "files": [
+            "https://github.com/if-ai/ComfyUI-IF_Trellis"
         ]
     },
     {
@@ -5398,7 +5426,7 @@
     },
     {
         "name": "ComfyUI-Text",
-        "note": "Text.",
+        "note": "Why make this node? Because I only need simple text related operations and don't want to install anything extra.",
         "files": [
             "https://github.com/MarkoCa1/ComfyUI-Text"
         ]
@@ -5524,9 +5552,9 @@
     },
     {
         "name": "ComfyUI-BiRefNet",
-        "note": "Bilateral Reference Network achieves SOTA result in multi Salient Object Segmentation dataset, this repo pack BiRefNet as ComfyUI nodes, and make this SOTA model easier use for everyone.",
+        "note": "Bilateral Reference Network achieves SOTA result in multi Salient Object Segmentation dataset, this repo pack BiRefNet as ComfyUI nodes, and make this SOTA model easier use for everyone.\nNOTE: The original node was replaced with a version maintained by hieuck because it is no longer maintained.",
         "files": [
-            "https://github.com/viperyl/ComfyUI-BiRefNet"
+            "https://github.com/hieuck/ComfyUI-BiRefNet"
         ]
     },
     {
@@ -5639,6 +5667,13 @@
         "note": "Add keybindings to textarea.",
         "files": [
             "https://github.com/shinich39/comfyui-textarea-keybindings"
+        ]
+    },
+    {
+        "name": "comfyui-textarea-command",
+        "note": "Add command and comment in textarea. (e.g. // Disabled line)",
+        "files": [
+            "https://github.com/shinich39/comfyui-textarea-command"
         ]
     },
     {
@@ -6472,6 +6507,13 @@
         "note": "you can make PBR in comfyUI",
         "files": [
             "https://github.com/smthemex/ComfyUI_PBR_Maker"
+        ]
+    },
+    {
+        "name": "ComfyUI_TRELLIS",
+        "note": "You can use TRELLIS in comfyUI\n[a/TRELLIS](https://github.com/microsoft/TRELLIS/tree/main), Structured 3D Latents for Scalable and Versatile 3D Generation",
+        "files": [
+            "https://github.com/smthemex/ComfyUI_TRELLIS"
         ]
     },
     {
@@ -7508,13 +7550,6 @@
         "note": "Nodes: Ultimate Concat (Mobile), Send Notification (Mobile), Settings Launcher (Mobile), Settings Launcher Outputs (Mobile)",
         "files": [
             "https://github.com/SozeInc/ComfyUI-Mobile"
-        ]
-    },
-    {
-        "name": "ComfyUI-Thumbnails",
-        "note": "Load Image thumbnails, delete images, browse input subfolders.",
-        "files": [
-            "https://github.com/audioscavenger/ComfyUI-Thumbnails"
         ]
     },
     {
@@ -8605,7 +8640,7 @@
     },
     {
         "name": "ComfyUI-tbox",
-        "note": "Nodes:ImageLoader, ImageSaver, ImagesSaver, ImageResize, ImageSize.",
+        "note": "Nodes:ImageLoader, ImageSaver, ImagesSaver, ImageResize, ImageSize, GFPGANNode, MaskAddNode, Video Load, ...",
         "files": [
             "https://github.com/ai-shizuka/ComfyUI-tbox"
         ]
@@ -9196,6 +9231,13 @@
         "note": "Custom nodes introducing particle simulations, optical flow, audio manipulation & reactivity, and temporal masks",
         "files": [
             "https://github.com/ryanontheinside/ComfyUI_RyanOnTheInside"
+        ]
+    },
+    {
+        "name": "ComfyUI_RealTimeNodes",
+        "note": "These nodes are for real-time applications of ComfyUI.",
+        "files": [
+            "https://github.com/ryanontheinside/ComfyUI_RealTimeNodes"
         ]
     },
     {
@@ -11026,6 +11068,13 @@
         ]
     },
     {
+        "name": "ComfyUI-BEN",
+        "note": "Remove backgrounds from images with [a/BEN](https://huggingface.co/PramaLLC/BEN) in ComfyUI",
+        "files": [
+            "https://github.com/DoctorDiffusion/ComfyUI-BEN"
+        ]
+    },
+    {
         "name": "ComfyUI-ComfyBridge",
         "note": "A socket service that helps third-party DCC software maintain long-term image exchange with comfyUI.",
         "files": [
@@ -11453,8 +11502,15 @@
         ]
     },
     {
+        "name": "ComfyUI-EasyNoobai",
+        "note": "Simple set of nodes to assist with prompt generation for NOOBAI XL / Illustrious models",
+        "files": [
+            "https://github.com/regiellis/ComfyUI-EasyNoobai"
+        ]
+    },
+    {
         "name": "ComfyUI-Teeth",
-        "note": "NODES: Index List, TextSplitByDelimiter",
+        "note": "NODES: GetValueByIndexFromList, TextSplitByDelimiter, GetFirstSeg, FindContours",
         "files": [
             "https://github.com/steelan9199/ComfyUI-Teeth"
         ]
@@ -11573,7 +11629,7 @@
     },
     {
         "name": "ComfyUI_MagicQuill",
-        "note": "Official ComfyUI Node for Paper - MagicQuill: An Intelligent Interactive Image Editing System",
+        "note": "Towards GPT-4 like large language and visual assistant.",
         "files": [
             "https://github.com/magic-quill/ComfyUI_MagicQuill"
         ]
@@ -11688,6 +11744,111 @@
         "note": "[a/Distrifuser](https://github.com/mit-han-lab/distrifuser) sampler node for ComfyUI\n",
         "files": [
             "https://github.com/SlackinJack/distrifuser_comfyui"
+        ]
+    },
+    {
+        "name": "ComfyUI-Runware",
+        "note": "Runware Inference API Integration for ComfyUI (No GPU Required).",
+        "files": [
+            "https://github.com/Runware/ComfyUI-Runware"
+        ]
+    },
+    {
+        "name": "ComfyUI-Timer-Nodes",
+        "note": "This project provides a set of custom timer nodes for ComfyUI. These nodes allow you to measure and append runtime information to strings or other data during your workflow.",
+        "files": [
+            "https://github.com/Shannooty/ComfyUI-Timer-Nodes"
+        ]
+    },
+    {
+        "name": "ComfyUI_RH_OminiControl",
+        "note": "ComfyUI_RH_OminiControl is a ComfyUI plugin based on OminiControl By splitting the pipeline load, the plugin efficiently runs on NVIDIA RTX 4090 GPUs. Additionally, the spatial and fill functionalities are generated using the schnell model, reducing the number of sampling steps and improving overall efficiency.",
+        "files": [
+            "https://github.com/HM-RunningHub/ComfyUI_RH_OminiControl"
+        ]
+    },
+    {
+        "name": "ComfyUI-LMCQ",
+        "note": "ComfyUI small node toolkit, this toolkit is mainly to update some practical small nodes, to make a contribution to the comfyui ecosystem, PS: 'LMCQ' is the abbreviation of the team name\nNOTE: The files in the repo are not organized, which may lead to update issues.",
+        "files": [
+            "https://github.com/sebord/ComfyUI-LMCQ"
+        ]
+    },
+    {
+        "name": "ComfyUI-InstantStudio",
+        "note": "A collection of nodes to enhance your experience with ComfyUI.",
+        "files": [
+            "https://github.com/InstantStudioAI/ComfyUI-InstantStudio"
+        ]
+    },
+    {
+        "name": "ComfyUI-Flow-Control",
+        "note": "This is an Extension for ComfyUI. This project will help you control the flow logic via many controls.",
+        "files": [
+            "https://github.com/krich-cto/ComfyUI-Flow-Control"
+        ]
+    },
+    {
+        "name": "ComfyUI-OllamaPromptsGeneratorTlant",
+        "note": "Use ollama to generate prompts based on reference text in comfyui.",
+        "files": [
+            "https://github.com/Tlant/ComfyUI-OllamaPromptsGeneratorTlant"
+        ]
+    },
+    {
+        "name": "ComfyUI-VideoDirCombiner",
+        "note": "A custom node for ComfyUI that combines multiple videos from a directory with optional transitions and background music. Perfect for batch processing and creating seamless video compilations.",
+        "files": [
+            "https://github.com/DarioFT/ComfyUI-VideoDirCombiner"
+        ]
+    },
+    {
+        "name": "ComfyUI_KimNodes",
+        "note": "Image effects, icon layout processing, cropping \u2014 this toolbox is a node library organized according to my own needs.",
+        "files": [
+            "https://github.com/wjl0313/ComfyUI_KimNodes"
+        ]
+    },
+    {
+        "name": "ComfyUI-Gemini-Prompt-Generator-JT",
+        "note": "Custom node to use Gemini 1.5 and above for Comfyui to generates theme related prompts for image generators",
+        "files": [
+            "https://github.com/LiJT/ComfyUI-Gemini-Prompt-Generator-JT"
+        ]
+    },
+    {
+        "name": "ComfyUI-MaskContourProcessor",
+        "note": "A ComfyUI node that improves inpainting results by extending mask boundaries with geometric patterns, helping create smoother transitions and better context for AI-driven image completion.",
+        "files": [
+            "https://github.com/codeprimate/ComfyUI-MaskContourProcessor"
+        ]
+    },
+    {
+        "name": "comfyui-save-vpred",
+        "note": "Simple ComfyUI Custom Node to enable saving checkpoints with V-Pred ZTSNR tensors and metadata.",
+        "files": [
+            "https://github.com/Miyuutsu/comfyui-save-vpred"
+        ]
+    },
+    {
+        "name": "jk-comfyui-helpers",
+        "note": "NODES: EasyHRFix, EasyHRFix_Context, JKAnythingToString, JKBigContext, JKDynamicThresholdingMultiModel, JKEasyCheckpointLoader, JKEasyDetailer, JKEasyDetailer_Context, JKEasyKSampler_Context, JKEasyWatermark, JKInspireSchedulerAdapter, JKLilContext, JKMultiModelSamplerUnpatch, JKStringEmpty, JKStringEquals, JKStringNotEmpty, JKStringNotEquals, JKStringToSamplerAdapter",
+        "files": [
+            "https://github.com/kostenickj/jk-comfyui-helpers"
+        ]
+    },
+    {
+        "name": "Ruyi-Models",
+        "note": "ComfyUI wrapper nodes for Ruyi, an image-to-video model by CreateAI.",
+        "files": [
+            "https://github.com/IamCreateAI/Ruyi-Models"
+        ]
+    },
+    {
+        "name": "ComfyUI-42lux",
+        "note": "Just a bunch of QOL nodes. Normalized Flux Sampling, High Res Latent Picker, Textbox with Token Counter.",
+        "files": [
+            "https://github.com/42lux/ComfyUI-42lux"
         ]
     },
     {
