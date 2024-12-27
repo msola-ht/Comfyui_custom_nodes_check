@@ -176,6 +176,11 @@
   "custom_nodes\\SDXL_EcomID_ComfyUI": "SDXL阿里妈妈换脸",
   "custom_nodes\\ComfyUI_CatVTON_Wrapper": "葫芦娃-CatVTON换衣服",
   "custom_nodes\\ComfyUI_HelloMeme": "基于SD1.5的图片及视频表情和动作迁移",
+  "custom_nodes\\ComfyUI_EchoMimic": "语音驱动手势数字人",
+  "custom_nodes\\Comfyui_leffa": "leffa换装",
+  "custom_nodes\\ComfyUI_Sapiens": "人体分割大师",
+  "custom_nodes\\ComfyUI-LTXVideo": "LTXV视频",
+  "custom_nodes\\ComfyUI-Fluxpromptenhancer": "FLUX提示词",
   "custom_nodes\\": "",
   "custom_nodes\\OneButtonPrompt": "ComfyUI_随机提示词"
 }
